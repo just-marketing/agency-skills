@@ -38,16 +38,9 @@ This is a NEW service category that agencies can sell as a standalone offering (
 
 ### Step 1: Design the Query Test Matrix
 
-Build a structured set of test queries across multiple intent categories:
+Build a structured set of test queries across 6 intent categories: Brand, Category, Comparison, Problem/Solution, Recommendation, and Location (if applicable). Create 20-40 queries minimum covering the client's full product/service range and all primary audience segments.
 
-1. **Brand queries:** "What is [brand name]?", "Tell me about [brand name]", "[brand name] reviews"
-2. **Category queries:** "Best [product/service category]", "Top [industry] companies", "Who are the leading [category] providers?"
-3. **Comparison queries:** "[brand] vs [competitor]", "Compare [product category] options", "Which [category] is best for [use case]?"
-4. **Problem/solution queries:** "How do I solve [problem the client addresses]?", "What's the best way to [task the client helps with]?"
-5. **Recommendation queries:** "Recommend a [product/service] for [persona/use case]", "What should I look for in a [category]?"
-6. **Location queries (if applicable):** "Best [category] in [city/region]", "[category] near [location]"
-
-Create 20-40 queries minimum. Ensure they cover the client's full product/service range and all primary audience segments.
+See [query-test-matrix.md](query-test-matrix.md) for the complete query category templates, example queries, response documentation template, and LLM platform testing guide.
 
 ### Step 2: Test Brand Visibility Across LLMs
 
@@ -80,18 +73,9 @@ For LLMs that show sources (Perplexity, Bing Chat, Gemini with citations):
 
 ### Step 4: Score Content Citability
 
-Evaluate the client's website content for characteristics that make it likely to be cited by LLMs:
+Evaluate the client's website content across 8 citability factors, each scored 1-10. Calculate an average Content Citability Score (1-10) across all factors.
 
-1. **Clear, structured answers:** Does the content provide direct, concise answers to common questions? Score: [1-10]
-2. **Factual density:** Does the content include specific data points, statistics, and verifiable claims? Score: [1-10]
-3. **Authority signals:** Does the content demonstrate E-E-A-T? Author bios, citations, expert quotes, original research? Score: [1-10]
-4. **Structured data markup:** Is schema.org markup implemented to help machines parse the content? Score: [1-10]
-5. **Content freshness:** Is the content regularly updated with current information? Score: [1-10]
-6. **Unique value:** Does the content offer original insights, data, or perspectives not found elsewhere? Score: [1-10]
-7. **Format accessibility:** Is the content organized with clear headings, lists, tables, and summaries that LLMs can easily extract? Score: [1-10]
-8. **Topic coverage breadth:** Does the site comprehensively cover its category, or are there significant gaps? Score: [1-10]
-
-Calculate an average Content Citability Score (1-10) across all factors.
+See [citability-scorecard.md](citability-scorecard.md) for the complete 8-factor scoring framework with detailed criteria for each score level, the scoring summary table, and score interpretation guide.
 
 ### Step 5: Assess Structured Data and Technical Readiness
 
@@ -118,13 +102,9 @@ For each competitor identified in the test matrix:
 
 ### Step 7: Develop the Optimization Roadmap
 
-Based on all findings, build a phased implementation plan:
+Based on all findings, build a phased implementation plan covering 5 phases: Foundation (Weeks 1-2), Content Optimization (Months 1-2), Content Creation (Months 2-4), Authority Building (Ongoing), and Monitoring & Iteration (Monthly).
 
-1. **Quick wins (Week 1-2):** Structured data fixes, llms.txt implementation, robots.txt updates
-2. **Content optimization (Month 1-2):** Restructure existing high-value pages for citability, add FAQ sections, improve answer formatting
-3. **Content creation (Month 2-4):** Create new content targeting citation gaps, develop authoritative resources for key category queries
-4. **Authority building (Ongoing):** Earn mentions on citation source sites, build topical authority, pursue knowledge graph presence
-5. **Monitoring and iteration (Ongoing):** Retest queries monthly to track visibility changes, adjust strategy based on LLM behavior changes
+See [geo-implementation-roadmap.md](geo-implementation-roadmap.md) for the complete phased roadmap template with checklists, content optimization priorities, citation source targeting, and monthly tracking template.
 
 ## Output Format
 
@@ -227,24 +207,7 @@ Based on all findings, build a phased implementation plan:
 
 ### Citability Score: [X/10]
 
-| Factor | Score (1-10) | Assessment | Key Issues |
-|--------|-------------|-----------|------------|
-| Clear, structured answers | [X] | [Strong/Adequate/Weak] | [Specific issues] |
-| Factual density | [X] | [Strong/Adequate/Weak] | [Specific issues] |
-| Authority signals (E-E-A-T) | [X] | [Strong/Adequate/Weak] | [Specific issues] |
-| Structured data markup | [X] | [Strong/Adequate/Weak] | [Specific issues] |
-| Content freshness | [X] | [Strong/Adequate/Weak] | [Specific issues] |
-| Unique value / original data | [X] | [Strong/Adequate/Weak] | [Specific issues] |
-| Format accessibility | [X] | [Strong/Adequate/Weak] | [Specific issues] |
-| Topic coverage breadth | [X] | [Strong/Adequate/Weak] | [Specific issues] |
-
-### Content Optimization Priorities
-
-| Page / Content Area | Current Citability | Issue | Recommended Action | Priority |
-|--------------------|-------------------|-------|-------------------|----------|
-| [Page/topic 1] | [Low/Medium/High] | [What is wrong] | [Specific fix] | [P1/P2/P3] |
-| [Page/topic 2] | [Low/Medium/High] | [What is wrong] | [Specific fix] | [P1/P2/P3] |
-| [Page/topic 3] | [Low/Medium/High] | [What is wrong] | [Specific fix] | [P1/P2/P3] |
+See [citability-scorecard.md](citability-scorecard.md) for the complete 8-factor scoring table and content optimization priorities template.
 
 ---
 
@@ -290,46 +253,7 @@ Based on all findings, build a phased implementation plan:
 
 ## 6. Implementation Roadmap
 
-### Phase 1: Foundation (Weeks 1-2)
-**Focus:** Technical readiness and quick wins
-
-- [ ] [Action 1: e.g., Implement llms.txt file] -- [Expected impact]
-- [ ] [Action 2: e.g., Update robots.txt to allow AI crawlers] -- [Expected impact]
-- [ ] [Action 3: e.g., Add/fix structured data markup] -- [Expected impact]
-- [ ] [Action 4: e.g., Correct inaccurate brand information across web properties] -- [Expected impact]
-
-### Phase 2: Content Optimization (Months 1-2)
-**Focus:** Make existing content more citable
-
-- [ ] [Action 1: e.g., Restructure top 10 pages with FAQ sections and clear answer formatting] -- [Expected impact]
-- [ ] [Action 2: e.g., Add original data, statistics, and expert quotes to key pages] -- [Expected impact]
-- [ ] [Action 3: e.g., Update outdated content with current information] -- [Expected impact]
-- [ ] [Action 4: e.g., Improve E-E-A-T signals: author bios, credentials, methodology pages] -- [Expected impact]
-
-### Phase 3: Content Creation (Months 2-4)
-**Focus:** Fill citation gaps with new authoritative content
-
-- [ ] [Action 1: e.g., Create definitive guide for [high-value category query]] -- [Expected impact]
-- [ ] [Action 2: e.g., Publish original research/survey on [industry topic]] -- [Expected impact]
-- [ ] [Action 3: e.g., Build comparison/vs. pages for key competitor matchups] -- [Expected impact]
-- [ ] [Action 4: e.g., Develop FAQ hub covering top 50 questions in the category] -- [Expected impact]
-
-### Phase 4: Authority Building (Ongoing)
-**Focus:** Earn presence on citation source sites
-
-- [ ] [Action 1: e.g., Pitch guest content to [top citation source domains]] -- [Expected impact]
-- [ ] [Action 2: e.g., Pursue Wikipedia/Wikidata presence] -- [Expected impact]
-- [ ] [Action 3: e.g., Submit to industry directories and review platforms] -- [Expected impact]
-- [ ] [Action 4: e.g., Build relationships with publishers LLMs frequently cite] -- [Expected impact]
-
-### Phase 5: Monitoring & Iteration (Monthly)
-**Focus:** Track changes and adapt
-
-- [ ] Retest full query matrix monthly across all LLMs
-- [ ] Track GEO Visibility Score trend
-- [ ] Monitor competitor GEO changes
-- [ ] Adjust content and technical strategy based on LLM behavior updates
-- [ ] Report results to client with month-over-month comparisons
+See [geo-implementation-roadmap.md](geo-implementation-roadmap.md) for the complete 5-phase implementation roadmap with checklists, content type guidance, citation source targeting tables, and monthly tracking template.
 
 ---
 

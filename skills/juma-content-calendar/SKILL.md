@@ -70,25 +70,9 @@ Generate a comprehensive monthly or quarterly editorial calendar that aligns con
 
 ## Content Pillars
 
-### Pillar 1: [Pillar Name]
-**Business goal alignment:** [Which objective this serves]
-**Keyword cluster:** [Primary keywords in this theme]
-**Content ratio:** [% of total content dedicated to this pillar]
-**Description:** [2-3 sentences on what this pillar covers and why it matters to the audience]
+See [content-pillar-template.md](content-pillar-template.md) for the complete pillar definition template with examples and validation checklist.
 
-### Pillar 2: [Pillar Name]
-**Business goal alignment:** [Which objective this serves]
-**Keyword cluster:** [Primary keywords in this theme]
-**Content ratio:** [% of total content dedicated to this pillar]
-**Description:** [2-3 sentences]
-
-### Pillar 3: [Pillar Name]
-**Business goal alignment:** [Which objective this serves]
-**Keyword cluster:** [Primary keywords in this theme]
-**Content ratio:** [% of total content dedicated to this pillar]
-**Description:** [2-3 sentences]
-
-[Add Pillars 4-5 if applicable]
+[Define 3-5 pillars using the template]
 
 ---
 
@@ -107,17 +91,7 @@ Generate a comprehensive monthly or quarterly editorial calendar that aligns con
 
 ## Repurposing Workflows
 
-### Pillar Content Cascade
-**Source piece:** [e.g., Quarterly Whitepaper or Long-Form Guide]
-
-| Step | Derivative Content | Channel | Owner | Timeline from Source Publish |
-|---|---|---|---|---|
-| 1 | [e.g., Blog post series (3 posts extracted from guide)] | Blog | [Writer] | [Week 1-2] |
-| 2 | [e.g., Social snippet series (10 posts with key stats/quotes)] | Social | [Social Manager] | [Week 1-3] |
-| 3 | [e.g., Email series (3 emails summarizing key sections)] | Email | [Email Specialist] | [Week 1-2] |
-| 4 | [e.g., Infographic summarizing main findings] | Social / Blog | [Designer] | [Week 2] |
-| 5 | [e.g., Video script (2-3 min explainer)] | YouTube / Social | [Video Producer] | [Week 2-3] |
-| 6 | [e.g., Podcast episode discussion points] | Podcast | [Host / Producer] | [Week 3-4] |
+See [repurposing-workflow.md](repurposing-workflow.md) for the complete pillar content cascade template with variations by source type (whitepaper, webinar, case study, research).
 
 ---
 

@@ -59,19 +59,7 @@ Determine how many visitors/users are needed per variant:
 4. **Statistical power**: Usually 80% (β = 0.20)
 5. **Number of variants**: Control + 1 or more treatments
 
-**Quick reference table:**
-
-| Baseline Rate | MDE (Relative) | Sample Size Per Variant |
-|---------------|----------------|------------------------|
-| 1% | 20% | ~160,000 |
-| 2% | 20% | ~78,000 |
-| 5% | 20% | ~30,000 |
-| 10% | 20% | ~14,000 |
-| 20% | 20% | ~6,000 |
-| 5% | 10% | ~120,000 |
-| 10% | 10% | ~57,000 |
-
-**Test duration** = (Sample size per variant × Number of variants) / Daily traffic to the test page
+See [sample-size-reference.md](sample-size-reference.md) for the complete sample size reference table, test duration calculation formula, and guidance on what to do when sample size is too large.
 
 Minimum test duration: 1 full business cycle (typically 1-2 weeks) regardless of sample size to account for day-of-week effects.
 
@@ -149,16 +137,7 @@ When the test reaches required sample size:
 
 ### Step 10: Client Communication
 
-Prepare results communication in non-technical language:
-
-**Win template:**
-> "We tested [change] against the original [page/element]. After [N] visitors over [N] weeks, the new version increased [metric] by [X%], which translates to approximately [Y] additional [conversions/revenue] per month. We recommend implementing this change permanently."
-
-**Loss template:**
-> "We tested [change] against the original [page/element]. After [N] visitors over [N] weeks, the original performed better. This is still a valuable result — we now know [what we learned] and can apply this insight to [next test]. Our next test will focus on [next hypothesis]."
-
-**Inconclusive template:**
-> "We tested [change] over [N] weeks but didn't see a statistically meaningful difference. This means [change] likely doesn't have a large impact on [metric]. We recommend [next action: extend test, try bigger change, move to next test]."
+Prepare results communication in non-technical language. See [results-communication-templates.md](results-communication-templates.md) for the complete win, loss, and inconclusive templates with examples and communication best practices.
 
 ## Output Format
 

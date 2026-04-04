@@ -67,10 +67,7 @@ Performs a comprehensive profitability and health assessment for a retainer clie
 
 5. **Identify scope creep**
    - Compare work actually performed (from time tracking and project management data) against the SOW deliverables list
-   - Categorize out-of-scope work:
-     - **Recurring scope creep:** Work done regularly that is not in the SOW (e.g., weekly report that was supposed to be monthly, managing a social channel that is not in scope)
-     - **Ad hoc scope creep:** One-off requests that accumulate (e.g., "quick favor" design requests, unplanned strategy calls, additional platform management)
-     - **Complexity creep:** In-scope deliverables that have grown more complex than originally scoped (e.g., monthly report that now takes 6 hours instead of the scoped 2 hours due to added sections)
+   - Categorize out-of-scope work into recurring, ad hoc, and complexity creep. See [scope-creep-detection.md](scope-creep-detection.md) for the complete categorization framework, tracking templates, quantification formulas, and documentation guidance for renegotiation.
    - Estimate hours spent on out-of-scope work per month
    - Calculate the dollar value of scope creep (hours x blended hourly rate)
    - Document specific examples with dates for use in renegotiation conversations
@@ -115,6 +112,8 @@ Performs a comprehensive profitability and health assessment for a retainer clie
 ---
 
 ## Account Health Scorecard
+
+See [account-health-scorecard.md](account-health-scorecard.md) for the complete 5-dimension scoring guide with definitions for each score level (1-5) and status thresholds.
 
 | Dimension | Score (1-5) | Trend | Notes |
 |-----------|-------------|-------|-------|
@@ -172,24 +171,12 @@ Performs a comprehensive profitability and health assessment for a retainer clie
 
 ## Scope Creep Identification
 
+See [scope-creep-detection.md](scope-creep-detection.md) for the complete tracking templates and categorization framework.
+
 **Total estimated hours on out-of-scope work per month:** [X] hours
 **Dollar value of monthly scope creep:** $[Amount]
 
-### Recurring Scope Creep
-| Activity | Not in SOW | Est. Hours/Month | Duration | Total Uncompensated Hours |
-|----------|-----------|-------------------|----------|--------------------------|
-| [Activity] | [Correct] | [X] | [X months] | [X] |
-| [Activity] | [Correct] | [X] | [X months] | [X] |
-
-### Ad Hoc Scope Creep (Examples)
-- [Date]: [Description of request, estimated hours spent]
-- [Date]: [Description of request, estimated hours spent]
-- [Date]: [Description of request, estimated hours spent]
-
-### Complexity Creep
-| Deliverable | Originally Scoped Hours | Current Avg Hours | Reason for Increase |
-|-------------|------------------------|-------------------|---------------------|
-| [Deliverable] | [X] | [X] | [Explanation] |
+[Use recurring, ad hoc, and complexity creep tracking templates from scope-creep-detection.md]
 
 ---
 

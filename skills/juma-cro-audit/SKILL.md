@@ -63,94 +63,21 @@ Manually complete the conversion journey as each primary audience segment would:
 
 ### Step 3: Identify Friction Points
 
-Categorize every friction point found across the following dimensions:
+Categorize every friction point found across 6 dimensions (A-F): Value Proposition & Messaging, Trust Signals, CTA Effectiveness, Form Optimization, Page Performance & Technical Friction, and Mobile-Specific Issues.
 
-**A. Value Proposition and Messaging**
-- Is the above-fold headline specific and benefit-oriented?
-- Does the subheadline explain how the product/service delivers on the promise?
-- Are there clear supporting proof points (stats, logos, awards, certifications)?
-- Does the page speak to the visitor's problem before describing the solution?
-- Is the language clear and jargon-free for the target audience?
-
-**B. Trust Signals**
-- Customer testimonials with names, titles, photos, and company logos?
-- Case studies or results with specific metrics?
-- Security badges, privacy policies, and compliance certifications?
-- Client logos or "as seen in" media mentions?
-- Review scores from third-party platforms (G2, Trustpilot, Google Reviews)?
-- Money-back guarantees, free trials, or risk-reduction messaging?
-- Team photos, about page depth, and transparency signals?
-
-**C. Call-to-Action (CTA) Effectiveness**
-- Is there a clear primary CTA on every key page?
-- CTA placement: above-fold, mid-page, and bottom-of-page?
-- CTA copy: specific and action-oriented, or generic ("Submit", "Click Here")?
-- CTA visual contrast: does the button stand out from the surrounding design?
-- CTA urgency or scarcity: is there a reason to act now?
-- Secondary CTAs for visitors not ready to convert (newsletter, guide, chat)?
-- CTA consistency: does the CTA match the page intent and funnel stage?
-
-**D. Form Optimization**
-- How many fields? (Every field above 3-4 reduces completion rate)
-- Are fields labeled clearly with placeholder text AND labels?
-- Inline validation or error handling after submission?
-- Progress indicators for multi-step forms?
-- Smart defaults and autofill support?
-- Mobile-optimized input types (tel, email, number)?
-- Are optional fields clearly marked or removed?
-- Is the form visible without scrolling?
-
-**E. Page Performance and Technical Friction**
-- Page load time on mobile (target: under 3 seconds)
-- Layout shifts during loading (CLS issues)
-- Broken links, 404 pages, or dead ends in the conversion path
-- Pop-ups or overlays that interrupt the conversion journey
-- Chat widgets, notification bars, or other elements that obscure content or CTAs
-
-**F. Mobile-Specific Issues**
-- Touch targets (minimum 44x44 pixels)
-- Mobile-specific CTAs (click-to-call, simplified forms)
-- Content readability without zooming
-- Sticky navigation or sticky CTAs on mobile
-- Accordion/expandable content for long-form mobile pages
-- Mobile checkout or form experience vs. desktop
+See [friction-point-framework.md](friction-point-framework.md) for the complete A-F categorization framework with checklists and finding templates for each dimension.
 
 ### Step 4: Score by Severity and Opportunity
 
-Rate every finding on two dimensions to build the prioritization matrix:
+Rate every finding on two independent dimensions -- Severity (how bad is the problem?) and Opportunity (how much improvement is possible?) -- then plot on the prioritization matrix to determine P1-P4 priority.
 
-**Severity (How bad is the current problem?)**
-- **High:** Directly causing measurable conversion loss. Significant portion of users affected. Clear evidence in analytics or heatmaps.
-- **Medium:** Contributing to conversion friction but not a primary blocker. Moderate user impact.
-- **Low:** Minor issue. Affects a small percentage of users or has marginal impact on conversion behavior.
-
-**Opportunity (How much improvement is possible?)**
-- **High:** Fixing this could produce a measurable lift (10%+ improvement on the affected metric). Large traffic volume amplifies the impact.
-- **Medium:** Expected lift of 3-10% on the affected metric. Moderate traffic volume.
-- **Low:** Expected lift of 1-3%. Low traffic volume or niche impact.
-
-Plot every finding on the matrix:
-
-| | **High Opportunity** | **Medium Opportunity** | **Low Opportunity** |
-|---|---|---|---|
-| **High Severity** | FIX FIRST (P1) | FIX SOON (P2) | SCHEDULE (P3) |
-| **Medium Severity** | FIX SOON (P2) | SCHEDULE (P3) | BACKLOG (P4) |
-| **Low Severity** | SCHEDULE (P3) | BACKLOG (P4) | BACKLOG (P4) |
+See [severity-opportunity-matrix.md](severity-opportunity-matrix.md) for the complete matrix, rating guides for both dimensions, and priority level definitions.
 
 ### Step 5: Build the Test Roadmap
 
-For every P1 and P2 finding, create a structured test recommendation:
+For every P1 and P2 finding, create a structured test recommendation and sequence the roadmap into 30/60/90-day sprints.
 
-1. **Observation:** What was found (the problem, with evidence)
-2. **Hypothesis:** "If we [change], then [metric] will [improve/increase/decrease] because [reasoning based on user behavior or best practice]"
-3. **Test type:** A/B test, multivariate test, or direct implementation (for obvious fixes that do not need testing)
-4. **Estimated impact:** High / Medium / Low conversion lift
-5. **Effort level:** Small (1-2 days), Medium (3-5 days), Large (1-2 weeks), Major (2+ weeks)
-6. **Priority:** P1 / P2 / P3
-7. **Page(s) affected:** Where to implement
-8. **Success metric:** What to measure and minimum detectable effect
-
-Sequence the roadmap into 30/60/90-day sprints.
+See [test-recommendation-template.md](test-recommendation-template.md) for the complete test recommendation format, test type decision guide, effort level definitions, sprint sequencing tables, and hypothesis writing guide.
 
 ## Output Format
 
@@ -225,114 +152,19 @@ If the recommended optimizations achieve a conservative [X%] lift in conversion 
 
 ## Findings by Category
 
-### A. Value Proposition & Messaging
-
-| # | Finding | Severity | Opportunity | Priority | Page(s) |
-|---|---------|----------|------------|----------|---------|
-| A1 | [Finding: e.g., Homepage headline is generic -- "Welcome to [Company]" does not communicate value] | [High/Med/Low] | [High/Med/Low] | [P1-P4] | [URLs] |
-| A2 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-| A3 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-
-### B. Trust Signals
-
-| # | Finding | Severity | Opportunity | Priority | Page(s) |
-|---|---------|----------|------------|----------|---------|
-| B1 | [Finding: e.g., No customer testimonials on service pages] | [Level] | [Level] | [Priority] | [URLs] |
-| B2 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-| B3 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-
-### C. CTA Effectiveness
-
-| # | Finding | Severity | Opportunity | Priority | Page(s) |
-|---|---------|----------|------------|----------|---------|
-| C1 | [Finding: e.g., Primary CTA button uses low-contrast color and generic "Submit" copy] | [Level] | [Level] | [Priority] | [URLs] |
-| C2 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-| C3 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-
-### D. Form Optimization
-
-| # | Finding | Severity | Opportunity | Priority | Page(s) |
-|---|---------|----------|------------|----------|---------|
-| D1 | [Finding: e.g., Contact form has 12 fields including 6 that are unnecessary for initial inquiry] | [Level] | [Level] | [Priority] | [URLs] |
-| D2 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-| D3 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-
-### E. Page Performance & Technical
-
-| # | Finding | Severity | Opportunity | Priority | Page(s) |
-|---|---------|----------|------------|----------|---------|
-| E1 | [Finding: e.g., Mobile landing page takes 6.2 seconds to load] | [Level] | [Level] | [Priority] | [URLs] |
-| E2 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
-
-### F. Mobile Experience
-
-| # | Finding | Severity | Opportunity | Priority | Page(s) |
-|---|---------|----------|------------|----------|---------|
-| F1 | [Finding: e.g., CTA button is not visible without scrolling on mobile, and no sticky CTA is present] | [Level] | [Level] | [Priority] | [URLs] |
-| F2 | [Finding] | [Level] | [Level] | [Priority] | [URLs] |
+Document findings across all 6 categories (A-F). See [friction-point-framework.md](friction-point-framework.md) for the category checklists and finding table templates for each dimension.
 
 ---
 
 ## Severity x Opportunity Matrix
 
-```
-              HIGH OPPORTUNITY    MEDIUM OPPORTUNITY    LOW OPPORTUNITY
-
-HIGH          [Finding IDs]       [Finding IDs]         [Finding IDs]
-SEVERITY      FIX FIRST (P1)     FIX SOON (P2)         SCHEDULE (P3)
-
-MEDIUM        [Finding IDs]       [Finding IDs]         [Finding IDs]
-SEVERITY      FIX SOON (P2)      SCHEDULE (P3)          BACKLOG (P4)
-
-LOW           [Finding IDs]       [Finding IDs]         [Finding IDs]
-SEVERITY      SCHEDULE (P3)      BACKLOG (P4)           BACKLOG (P4)
-```
+See [severity-opportunity-matrix.md](severity-opportunity-matrix.md) for the complete matrix layout and populate with finding IDs from the categories above.
 
 ---
 
 ## Prioritized Test Roadmap
 
-### P1: Fix First (Highest Leverage)
-
-#### Test 1: [Test Name]
-- **Observation:** [What was found, with data]
-- **Hypothesis:** If we [change], then [metric] will [improve] because [reasoning]
-- **Test Type:** [A/B Test / Direct Implementation]
-- **Page(s):** [URLs]
-- **Estimated Impact:** [High/Medium/Low] -- [Projected conversion lift: X-X%]
-- **Effort:** [Small / Medium / Large / Major]
-- **Success Metric:** [What to measure, minimum detectable effect]
-- **Timeline:** [Sprint 1: Days 1-30]
-
-#### Test 2: [Test Name]
-- **Observation:** [What was found]
-- **Hypothesis:** If we [change], then [metric] will [improve] because [reasoning]
-- **Test Type:** [A/B Test / Direct Implementation]
-- **Page(s):** [URLs]
-- **Estimated Impact:** [Level]
-- **Effort:** [Level]
-- **Success Metric:** [Metric and MDE]
-- **Timeline:** [Sprint 1: Days 1-30]
-
-### P2: Fix Soon
-
-#### Test 3: [Test Name]
-[Same structure as above]
-- **Timeline:** [Sprint 2: Days 31-60]
-
-#### Test 4: [Test Name]
-[Same structure as above]
-- **Timeline:** [Sprint 2: Days 31-60]
-
-### P3: Schedule
-
-#### Test 5: [Test Name]
-[Same structure as above]
-- **Timeline:** [Sprint 3: Days 61-90]
-
-#### Test 6: [Test Name]
-[Same structure as above]
-- **Timeline:** [Sprint 3: Days 61-90]
+See [test-recommendation-template.md](test-recommendation-template.md) for the complete test recommendation format. Create entries for all P1, P2, and P3 findings, organized into 30/60/90-day sprints.
 
 ---
 

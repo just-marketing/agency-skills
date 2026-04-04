@@ -49,20 +49,9 @@ Run a comprehensive site crawl using Screaming Frog, Sitebulb, or equivalent:
 
 ### Step 2: Analyze Technical SEO Factors
 
-Evaluate each technical element and score its health:
+Evaluate each technical element and score its health. See [technical-seo-checklist.md](technical-seo-checklist.md) for the complete checklist with all items, output tables, and pass/fail targets.
 
-1. **Crawlability:** Can search engines discover and access all important pages?
-2. **Indexation:** Are the right pages indexed? Are the wrong pages indexed? Check index bloat.
-3. **Site Speed:** Run PageSpeed Insights on 5-10 key page types. Document scores for mobile and desktop.
-4. **Core Web Vitals:** LCP (Largest Contentful Paint), INP (Interaction to Next Paint), CLS (Cumulative Layout Shift) -- pass/fail for each
-5. **Mobile-Friendliness:** Responsive design, touch targets, viewport configuration, mobile-specific UX issues
-6. **Structured Data:** Schema markup present? Correct implementation? Missing opportunities (FAQ, How-to, Product, Review, Organization, Breadcrumb)?
-7. **XML Sitemaps:** Present, submitted, accurate, and up-to-date?
-8. **Robots.txt:** Correctly configured? Blocking anything important?
-9. **HTTPS:** Full HTTPS implementation? Mixed content issues?
-10. **URL Structure:** Clean, descriptive URLs? Parameter handling? Duplicate content from URL variations?
-11. **International/Hreflang:** If applicable, correct implementation of language targeting
-12. **Log File Analysis:** If available, how efficiently are crawl budgets being used?
+Key areas to assess: Crawlability, Indexation, Site Speed & Core Web Vitals, Mobile-Friendliness, Structured Data, XML Sitemaps, Robots.txt, HTTPS & Security, URL Structure, International/Hreflang (if applicable), and Log File Analysis (if available).
 
 ### Step 3: Audit On-Page SEO
 
@@ -117,12 +106,10 @@ If the client has physical locations or serves specific geographic areas:
 ### Step 7: Score and Prioritize
 
 1. Score each pillar on a 0-100 scale based on findings
-2. Apply weights: Technical (30%), On-Page (25%), Content (25%), Backlinks (20%)
-3. Calculate the overall SEO Health Score
-4. Categorize every finding by severity (Critical / High / Medium / Low)
-5. Estimate impact for each recommendation (High / Medium / Low traffic/revenue impact)
-6. Estimate effort for each recommendation (Quick Fix / Moderate / Major Project)
-7. Build the prioritized action plan ordered by impact-to-effort ratio
+2. Apply weights and calculate the overall SEO Health Score -- see [scoring-rubric.md](scoring-rubric.md) for the complete weighted scoring system, severity-based point deductions, and score interpretation guide
+3. Categorize every finding by severity (Critical / High / Medium / Low)
+4. Estimate impact and effort for each recommendation
+5. Build the prioritized action plan ordered by impact-to-effort ratio -- see [action-plan-template.md](action-plan-template.md) for the complete action plan structure with effort/impact estimation guides
 
 ## Output Format
 
@@ -142,13 +129,7 @@ If the client has physical locations or serves specific geographic areas:
 
 ### SEO Health Score: [X/100]
 
-| Pillar | Score | Weight | Weighted Score |
-|--------|-------|--------|----------------|
-| Technical SEO | [X/100] | 30% | [X] |
-| On-Page SEO | [X/100] | 25% | [X] |
-| Content | [X/100] | 25% | [X] |
-| Backlinks | [X/100] | 20% | [X] |
-| **Overall** | | **100%** | **[X/100]** |
+See [scoring-rubric.md](scoring-rubric.md) for the weighted scoring table, severity-based point deductions, and score interpretation ranges.
 
 ### Critical Issues (Fix Immediately)
 
@@ -166,84 +147,11 @@ If the client has physical locations or serves specific geographic areas:
 
 ## 1. Technical SEO (Score: [X/100])
 
-### 1.1 Crawlability & Indexation
+See [technical-seo-checklist.md](technical-seo-checklist.md) for the complete technical SEO checklist with all subsection tables (Crawlability & Indexation, Site Speed & Core Web Vitals, Mobile-Friendliness, Structured Data, HTTPS & Security, URL Structure, International/Hreflang, Log File Analysis).
 
-| Check | Status | Details |
-|-------|--------|---------|
-| Total pages crawled | [Number] | [Notes] |
-| Pages indexed (GSC) | [Number] | [Indexed vs. crawled gap analysis] |
-| Crawl errors (4xx) | [Count] | [Top errors listed] |
-| Crawl errors (5xx) | [Count] | [Top errors listed] |
-| Redirect chains | [Count] | [Longest chain noted] |
-| Orphan pages | [Count] | [Impact assessment] |
-| XML sitemap | [Present/Missing] | [Errors or issues] |
-| Robots.txt | [Correct/Issues] | [Specific problems] |
-
-**Findings:**
-- [Finding 1 with severity tag: CRITICAL / HIGH / MEDIUM / LOW]
-- [Finding 2 with severity tag]
-- [Finding 3 with severity tag]
-
-**Recommendations:**
-1. [Action] -- Effort: [Quick Fix/Moderate/Major] | Impact: [High/Medium/Low]
-2. [Action] -- Effort: [Quick Fix/Moderate/Major] | Impact: [High/Medium/Low]
-
-### 1.2 Site Speed & Core Web Vitals
-
-| Metric | Mobile | Desktop | Target | Status |
-|--------|--------|---------|--------|--------|
-| PageSpeed Score | [Score] | [Score] | 90+ | [Pass/Fail] |
-| LCP | [Time] | [Time] | <2.5s | [Pass/Fail] |
-| INP | [Time] | [Time] | <200ms | [Pass/Fail] |
-| CLS | [Score] | [Score] | <0.1 | [Pass/Fail] |
-| TTFB | [Time] | [Time] | <800ms | [Pass/Fail] |
-
-**Page-Level Breakdown:**
-
-| Page Type | Mobile Score | LCP | INP | CLS |
-|-----------|-------------|-----|-----|-----|
-| Homepage | [Score] | [Time] | [Time] | [Score] |
-| Category/Service | [Score] | [Time] | [Time] | [Score] |
-| Product/Detail | [Score] | [Time] | [Time] | [Score] |
-| Blog Post | [Score] | [Time] | [Time] | [Score] |
-| Landing Page | [Score] | [Time] | [Time] | [Score] |
-
-**Findings:**
-- [Finding with severity tag]
-
-**Recommendations:**
-1. [Action] -- Effort: [Level] | Impact: [Level]
-
-### 1.3 Mobile-Friendliness
-
-- [Assessment of responsive design]
-- [Touch target issues]
-- [Mobile-specific UX findings]
-
-### 1.4 Structured Data
-
-| Schema Type | Implemented | Correct | Opportunity |
-|-------------|------------|---------|-------------|
-| Organization | [Yes/No] | [Yes/No/N/A] | [Notes] |
-| Breadcrumb | [Yes/No] | [Yes/No/N/A] | [Notes] |
-| FAQ | [Yes/No] | [Yes/No/N/A] | [Notes] |
-| Product | [Yes/No] | [Yes/No/N/A] | [Notes] |
-| Review/Rating | [Yes/No] | [Yes/No/N/A] | [Notes] |
-| Article | [Yes/No] | [Yes/No/N/A] | [Notes] |
-| Local Business | [Yes/No] | [Yes/No/N/A] | [Notes] |
-| How-To | [Yes/No] | [Yes/No/N/A] | [Notes] |
-
-### 1.5 HTTPS & Security
-
-- [HTTPS status]
-- [Mixed content issues]
-- [Security header assessment]
-
-### 1.6 URL Structure
-
-- [URL cleanliness assessment]
-- [Parameter handling]
-- [Duplicate URL issues]
+For each subsection, document:
+- **Findings** with severity tags (CRITICAL / HIGH / MEDIUM / LOW)
+- **Recommendations** with Effort and Impact levels
 
 ---
 
@@ -431,34 +339,7 @@ If the client has physical locations or serves specific geographic areas:
 
 ## Prioritized Action Plan
 
-### Critical (Fix Within 2 Weeks)
-
-| # | Action | Pillar | Effort | Est. Impact | Owner |
-|---|--------|--------|--------|-------------|-------|
-| 1 | [Action] | [Technical/On-Page/Content/Backlinks] | [Hours/days] | [Traffic/revenue estimate] | [Role] |
-| 2 | [Action] | [Pillar] | [Effort] | [Impact] | [Role] |
-
-### High Priority (Fix Within 30 Days)
-
-| # | Action | Pillar | Effort | Est. Impact | Owner |
-|---|--------|--------|--------|-------------|-------|
-| 3 | [Action] | [Pillar] | [Effort] | [Impact] | [Role] |
-| 4 | [Action] | [Pillar] | [Effort] | [Impact] | [Role] |
-| 5 | [Action] | [Pillar] | [Effort] | [Impact] | [Role] |
-
-### Medium Priority (Fix Within 60 Days)
-
-| # | Action | Pillar | Effort | Est. Impact | Owner |
-|---|--------|--------|--------|-------------|-------|
-| 6 | [Action] | [Pillar] | [Effort] | [Impact] | [Role] |
-| 7 | [Action] | [Pillar] | [Effort] | [Impact] | [Role] |
-
-### Low Priority (Fix Within 90 Days)
-
-| # | Action | Pillar | Effort | Est. Impact | Owner |
-|---|--------|--------|--------|-------------|-------|
-| 8 | [Action] | [Pillar] | [Effort] | [Impact] | [Role] |
-| 9 | [Action] | [Pillar] | [Effort] | [Impact] | [Role] |
+See [action-plan-template.md](action-plan-template.md) for the complete action plan structure with Critical/High/Medium/Low priority tables, effort estimation guide, and impact estimation guide.
 
 ---
 

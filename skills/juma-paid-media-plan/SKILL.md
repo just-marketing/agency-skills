@@ -41,15 +41,7 @@ Define target metrics: CPA, ROAS, CPL, CPC, CPM targets based on client's unit e
 
 Evaluate and select platforms with rationale:
 
-| Platform | Best For | Consider When |
-|----------|----------|---------------|
-| **Google Search** | High-intent capture | Client's category has search volume |
-| **Google Display/YouTube** | Awareness, retargeting | Need broad reach or video storytelling |
-| **Meta (Facebook/Instagram)** | B2C, ecommerce, lead gen | Visual products, broad targeting |
-| **LinkedIn** | B2B, professional services | Targeting by job title, company, industry |
-| **TikTok** | Gen Z/Millennial, awareness | Brand has or can create short-form video |
-| **Programmatic** | Scale, retargeting | Need reach beyond walled gardens |
-| **Microsoft Ads** | B2B, desktop-heavy audiences | Lower CPCs, older demographic |
+See [platform-selection-guide.md](platform-selection-guide.md) for the complete platform comparison matrix, objective alignment table, and minimum budget guidance.
 
 For each selected platform, document why it was chosen and its role in the media mix.
 
@@ -67,21 +59,9 @@ Document audience sizing per platform and expected overlap.
 
 ### Step 4: Campaign Architecture
 
-Structure campaigns using platform best practices:
+Structure campaigns using platform best practices. See [campaign-architecture-template.md](campaign-architecture-template.md) for the complete campaign hierarchy, naming conventions, and architecture examples by funnel stage.
 
-```
-Account
-└── Campaign (objective + budget level)
-    └── Ad Set / Ad Group (audience + placement level)
-        └── Ad (creative + copy level)
-```
-
-For each platform, define:
-- **Campaign naming convention**: `[Client]_[Objective]_[Audience]_[Date]`
-- **Number of campaigns**: By objective, audience, or funnel stage
-- **Ad sets/groups**: By audience segment, placement, or geography
-- **Ads per ad set**: 3-5 variations for testing
-- **Ad rotation**: Optimize for conversions vs even distribution
+For each platform, define the number of campaigns, ad sets/groups, ads per ad set, and ad rotation strategy.
 
 ### Step 5: Budget Allocation & Pacing
 
@@ -111,15 +91,7 @@ Include creative refresh schedule (new creative every 2-4 weeks to combat fatigu
 
 ### Step 7: Bidding Strategy
 
-Define bidding approach per platform:
-
-| Strategy | When to Use | Risk Level |
-|----------|-------------|------------|
-| **Manual CPC/CPM** | New campaigns, testing phase, tight control | Low (but labor-intensive) |
-| **Target CPA** | Established conversion data (50+ conversions/month) | Medium |
-| **Target ROAS** | Ecommerce with clear revenue attribution | Medium |
-| **Maximize conversions** | Budget-constrained, growth phase | Medium-High |
-| **Maximize clicks** | Traffic campaigns, initial data gathering | Low |
+Define bidding approach per platform. See [bidding-strategy-guide.md](bidding-strategy-guide.md) for the complete bidding strategy selection matrix, platform-specific recommendations, and campaign maturity progression.
 
 Document bid caps, floors, and adjustment schedules.
 

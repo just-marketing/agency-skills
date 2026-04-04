@@ -115,43 +115,16 @@ Identifies and prioritizes revenue expansion opportunities within existing clien
                     LOW IMPACT
 ```
 
+See [opportunity-scorecard.md](opportunity-scorecard.md) for the complete opportunity template (case, talk track, proof points, objections, prioritization scoring matrix). Fill in one scorecard per identified opportunity.
+
 ## Opportunity #1: [Service/Channel Name]
-**Priority:** P1
-**Type:** [Service Gap / Scale Opportunity / Competitive Response / Seasonal / Cross-Sell]
-**Estimated Monthly Revenue:** $[Amount]
-**Estimated Annual Revenue:** $[Amount]
-**Likelihood of Close:** [High / Medium / Low]
-**Weighted Value:** $[Amount]
-**Optimal Pitch Window:** [Date or timeframe]
-**Dependency:** [None / Requires X first]
-
-### The Case
-[2-3 sentences explaining WHY this opportunity exists, grounded in data or competitive intelligence. Reference specific metrics, competitor actions, or client goals.]
-
-### Talk Track
-> "[3-4 sentence pitch script tailored to the client contact. Connects to their goal, references a data point, and projects an outcome.]"
-
-**If presenting to executive sponsor:**
-> "[Adjusted pitch for senior stakeholder -- higher-level, focused on business outcomes and competitive positioning.]"
-
-### Proof Point
-- **Case study:** [Reference to a relevant case study or past result]
-- **Benchmark:** [Industry benchmark that supports the recommendation]
-- **Proposed test:** [Low-commitment way to prove value before full engagement]
-
-### Likely Objection & Response
-- **Objection:** "[Most likely pushback]"
-- **Response:** "[Prepared counter-argument with supporting evidence]"
-
----
+[Use opportunity-scorecard.md template]
 
 ## Opportunity #2: [Service/Channel Name]
-[Same structure as Opportunity #1]
-
----
+[Use opportunity-scorecard.md template]
 
 ## Opportunity #3: [Service/Channel Name]
-[Same structure as Opportunity #1]
+[Use opportunity-scorecard.md template]
 
 ---
 
@@ -172,6 +145,8 @@ Identifies and prioritizes revenue expansion opportunities within existing clien
 | [Month] | [Opportunity name] | [Why this timing] |
 
 ## Client Maturity Assessment
+
+See [client-maturity-assessment.md](client-maturity-assessment.md) for the complete foundational/intermediate/advanced maturity framework with characteristics, ready-for services, and assessment checklist.
 
 - **Current maturity level:** [Foundational / Intermediate / Advanced]
 - **Ready for:** [List of service types appropriate for this maturity level]

@@ -125,57 +125,7 @@ Manages the end-to-end onboarding workflow for a new agency client, from signed 
 
 ## Access Provisioning Checklist
 
-### Analytics
-- [ ] Google Analytics 4 -- [Status: Requested/Granted/Verified] -- [Date]
-- [ ] Adobe Analytics -- [Status] -- [Date]
-- [ ] Google Search Console -- [Status] -- [Date]
-- [ ] Google Tag Manager -- [Status] -- [Date]
-- [ ] Other analytics: [Platform] -- [Status] -- [Date]
-
-### Ad Platforms
-- [ ] Google Ads -- [Status] -- [Date]
-- [ ] Meta Ads Manager (Facebook/Instagram) -- [Status] -- [Date]
-- [ ] LinkedIn Campaign Manager -- [Status] -- [Date]
-- [ ] TikTok Ads Manager -- [Status] -- [Date]
-- [ ] Microsoft Ads (Bing) -- [Status] -- [Date]
-- [ ] Other ad platform: [Platform] -- [Status] -- [Date]
-
-### CMS & Website
-- [ ] CMS access (WordPress, Shopify, Webflow, etc.) -- [Status] -- [Date]
-- [ ] Hosting / CDN access (if needed) -- [Status] -- [Date]
-- [ ] Landing page platform (Unbounce, Instapage, etc.) -- [Status] -- [Date]
-
-### Social Media Accounts
-- [ ] Facebook Page admin -- [Status] -- [Date]
-- [ ] Instagram account -- [Status] -- [Date]
-- [ ] LinkedIn Company Page admin -- [Status] -- [Date]
-- [ ] Twitter/X account -- [Status] -- [Date]
-- [ ] TikTok account -- [Status] -- [Date]
-- [ ] YouTube channel manager -- [Status] -- [Date]
-- [ ] Other social: [Platform] -- [Status] -- [Date]
-
-### Email & CRM
-- [ ] Email marketing platform (Mailchimp, Klaviyo, HubSpot, etc.) -- [Status] -- [Date]
-- [ ] CRM access (Salesforce, HubSpot, Pipedrive, etc.) -- [Status] -- [Date]
-- [ ] Marketing automation platform -- [Status] -- [Date]
-
-### Brand & Creative Assets
-- [ ] Brand guidelines document -- [Status] -- [Date]
-- [ ] Logo files (vector + raster) -- [Status] -- [Date]
-- [ ] Font files or font family names -- [Status] -- [Date]
-- [ ] Color palette (hex codes) -- [Status] -- [Date]
-- [ ] Photography / image library access -- [Status] -- [Date]
-- [ ] Design asset library (Figma, Canva, shared drive) -- [Status] -- [Date]
-- [ ] Previous campaign creative -- [Status] -- [Date]
-
-### Other
-- [ ] Project management platform invitation -- [Status] -- [Date]
-- [ ] Shared drive / document repository access -- [Status] -- [Date]
-- [ ] Call tracking platform (CallRail, etc.) -- [Status] -- [Date]
-- [ ] Review platform (Yelp, Google Business Profile, etc.) -- [Status] -- [Date]
-
-**Access blockers:**
-- [Platform] -- [Issue] -- [Escalation action] -- [Owner]
+See [access-provisioning-checklist.md](access-provisioning-checklist.md) for the complete platform-by-platform access checklist covering Analytics, Ad Platforms, CMS, Social Media, Email/CRM, Brand Assets, and other tools, plus best practices for provisioning.
 
 ---
 
@@ -194,23 +144,7 @@ Manages the end-to-end onboarding workflow for a new agency client, from signed 
 
 ## Kickoff Meeting
 
-**Date/Time:** [Date, Time, Duration]
-**Location/Platform:** [Zoom, Google Meet, In-person, etc.]
-**Attendees:** [Names]
-
-### Agenda
-1. Introductions (10 min)
-2. Goals alignment and success metrics (15 min)
-3. Communication preferences and cadence (10 min)
-4. Quick wins discussion (10 min)
-5. First-30-days timeline review (10 min)
-6. Open questions and next steps (5 min)
-
-### Kickoff Decisions & Action Items
-| Decision/Action | Owner | Deadline | Status |
-|----------------|-------|----------|--------|
-| [Item] | [Name] | [Date] | [Open/Done] |
-| [Item] | [Name] | [Date] | [Open/Done] |
+See [kickoff-agenda-template.md](kickoff-agenda-template.md) for the complete kickoff meeting agenda with timing, post-kickoff actions, and decisions/action items log.
 
 ---
 
@@ -254,36 +188,7 @@ Manages the end-to-end onboarding workflow for a new agency client, from signed 
 
 ## First-30-Days Milestones
 
-### Week 1: Access + Kickoff
-- [ ] Welcome email sent to client -- [Owner] -- [Date]
-- [ ] All access requests submitted -- [Owner] -- [Date]
-- [ ] Juma project created and brand context uploaded -- [Owner] -- [Date]
-- [ ] Kickoff meeting completed -- [Owner] -- [Date]
-- [ ] Kickoff summary distributed -- [Owner] -- [Date]
-- [ ] Communication channels established (Slack/Teams, meeting cadence) -- [Owner] -- [Date]
-- [ ] Quick wins identified and execution started -- [Owner] -- [Date]
-
-### Week 2: Initial Audits
-- [ ] All critical access verified and working -- [Owner] -- [Date]
-- [ ] Analytics audit completed -- [Owner] -- [Date]
-- [ ] Channel-specific audits started -- [Owner] -- [Date]
-- [ ] First status meeting held -- [Owner] -- [Date]
-- [ ] Quick wins delivered or in progress -- [Owner] -- [Date]
-- [ ] Reporting template drafted -- [Owner] -- [Date]
-
-### Week 3: Strategy Development
-- [ ] All audits completed -- [Owner] -- [Date]
-- [ ] Audit findings presented to client -- [Owner] -- [Date]
-- [ ] Initial strategy and recommendations developed -- [Owner] -- [Date]
-- [ ] Reporting template finalized and first report delivered -- [Owner] -- [Date]
-- [ ] Any access blockers resolved -- [Owner] -- [Date]
-
-### Week 4: First Deliverables + Review
-- [ ] First round of strategic deliverables completed -- [Owner] -- [Date]
-- [ ] Client review and feedback on initial deliverables -- [Owner] -- [Date]
-- [ ] 30-day internal retrospective completed -- [Owner] -- [Date]
-- [ ] juma-client-context updated with all onboarding learnings -- [Owner] -- [Date]
-- [ ] Onboarding checklist marked complete and archived -- [Owner] -- [Date]
+See [30-day-milestones.md](30-day-milestones.md) for the complete week-by-week milestone plan (Week 1: Access + Kickoff, Week 2: Initial Audits, Week 3: Strategy Development, Week 4: First Deliverables + Review), audit scheduling guide, and 30-day retrospective questions.
 
 ---
 

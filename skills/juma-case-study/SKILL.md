@@ -47,174 +47,19 @@ Produces publication-ready case studies in three formats from one research pass,
 
 ### FORMAT 1: Long-Form Case Study (800-1200 words)
 
-```
-# [Client Name]: [Headline Summarizing Key Result]
-
-**Meta Description:** [150-160 characters, includes target keyword and primary result metric]
-
-**Target Keywords:** [Primary keyword], [Secondary keyword], [Long-tail keyword]
-
-## Client Overview
-- **Industry:** [Industry vertical]
-- **Company Size:** [Employee count or revenue range]
-- **Services Delivered:** [List of agency services used]
-- **Engagement Period:** [Start date - End date]
-
-## The Challenge
-
-[3-4 paragraphs describing the client's situation before the engagement. Include the business problem, market pressures, previous approaches that fell short, and the specific goals set for the agency partnership. Use concrete numbers to establish baseline performance.]
-
-## The Strategy
-
-[3-4 paragraphs detailing the agency's approach. Cover the strategic rationale, channel selection, key tactics, execution timeline, and any mid-course adjustments. Structure as a narrative that demonstrates expertise and methodical thinking.]
-
-### Key Tactical Elements
-- [Tactic 1 with brief explanation]
-- [Tactic 2 with brief explanation]
-- [Tactic 3 with brief explanation]
-
-## The Results
-
-[2-3 paragraphs presenting outcomes with specific metrics. Connect every result back to the original challenge.]
-
-### By the Numbers
-| Metric | Before | After | Change |
-|--------|--------|-------|--------|
-| [KPI 1] | [Baseline] | [Result] | [+/- %] |
-| [KPI 2] | [Baseline] | [Result] | [+/- %] |
-| [KPI 3] | [Baseline] | [Result] | [+/- %] |
-
-## Client Testimonial
-
-> "[Direct quote from client contact]"
-> -- [Name], [Title], [Company]
-
-## What's Next
-
-[1 paragraph on ongoing engagement or future plans, reinforcing the long-term partnership value.]
-```
+See [long-form-template.md](long-form-template.md) for the complete long-form case study template with Client Overview, Challenge, Strategy, Results, Testimonial, and What's Next sections.
 
 ### FORMAT 2: One-Pager (Executive Summary, PDF-Ready)
 
-```
-# [CLIENT LOGO PLACEMENT]
-
-# [Client Name] | [Industry]
-
-## At a Glance
-- **Challenge:** [1-2 sentence summary of the problem]
-- **Strategy:** [1-2 sentence summary of the approach]
-- **Timeline:** [Engagement duration]
-- **Services:** [Comma-separated list]
-
-## Key Results
-- [Result 1 with metric] -- e.g., "+142% organic traffic in 6 months"
-- [Result 2 with metric]
-- [Result 3 with metric]
-- [Result 4 with metric]
-
-## The Story (3-paragraph executive summary)
-
-**Challenge:** [Single paragraph, 3-4 sentences max, covering the core problem and goals.]
-
-**What We Did:** [Single paragraph, 3-4 sentences max, covering strategy and key tactics.]
-
-**The Outcome:** [Single paragraph, 3-4 sentences max, covering results and business impact.]
-
-## Client Quote
-
-> "[Testimonial quote, ideally 2 sentences]"
-> -- [Name], [Title]
-
-## Ready to See Similar Results?
-[Agency CTA with contact information]
-```
+See [one-pager-template.md](one-pager-template.md) for the complete one-pager template with At a Glance, Key Results, 3-paragraph executive summary, Client Quote, and CTA sections.
 
 ### FORMAT 3: Social Media Snippets
 
-```
-## LinkedIn Post (1,300 characters max)
-
-[Opening hook line that leads with the result]
-
-[2-3 sentences on the challenge]
-
-[2-3 sentences on what the agency did]
-
-[Key metrics as bullet points]
-
-[Closing line with CTA -- link to full case study]
-
-[3-5 relevant hashtags]
-
----
-
-## Twitter/X Thread (5-7 tweets)
-
-**Tweet 1 (Hook):** [Attention-grabbing stat or result, ends with "Here's how:" or "A thread:"]
-
-**Tweet 2 (Challenge):** [The problem the client faced]
-
-**Tweet 3 (Strategy):** [The core approach taken]
-
-**Tweet 4 (Tactic spotlight):** [One specific tactic that made a difference]
-
-**Tweet 5 (Results):** [Key metrics, use line breaks for readability]
-
-**Tweet 6 (Testimonial):** [Client quote if available]
-
-**Tweet 7 (CTA):** [Link to full case study, invitation to DM for similar results]
-
----
-
-## Instagram Carousel Script (8-10 slides)
-
-**Slide 1 (Cover):** [Bold headline with key result metric. Visual: branded template with client industry imagery]
-
-**Slide 2 (Client intro):** [Who the client is, industry, size. Visual: client overview graphic]
-
-**Slide 3 (Challenge):** [The problem, 2-3 bullet points. Visual: pain-point iconography]
-
-**Slide 4 (Goal):** [What the client wanted to achieve. Visual: target/goal imagery]
-
-**Slide 5-6 (Strategy):** [Key tactics, one per slide. Visual: process or channel graphics]
-
-**Slide 7 (Results):** [Metrics in large bold type. Visual: before/after or chart graphic]
-
-**Slide 8 (Testimonial):** [Client quote. Visual: quote card design]
-
-**Slide 9 (CTA):** [Link in bio prompt, contact invitation. Visual: agency branding]
-
-**Caption:** [2-3 sentences summarizing the story, CTA, 15-20 relevant hashtags]
-```
+See [social-snippets-template.md](social-snippets-template.md) for the complete LinkedIn post, Twitter/X thread (5-7 tweets), and Instagram carousel (8-10 slides) templates.
 
 ### Testimonial Prompt Templates
 
-```
-## Email to Client Requesting Testimonial
-
-Subject: Quick favor -- would you share a few words about our work together?
-
-[Client Name],
-
-We're putting together a case study on the [campaign/project name] work
-and would love to include your perspective. Would you be open to answering
-a few short questions? Happy to do it over email, a quick call, or even
-a short video if you're up for it.
-
-Here are the questions we'd ask:
-
-1. What was the biggest challenge you were facing before we started working together?
-2. What specifically about our approach stood out to you?
-3. What results have had the most impact on your business?
-4. Would you recommend [Agency Name] to other [industry] companies? Why?
-5. Is there anything else you'd want a potential client to know about working with us?
-
-No pressure at all -- even a sentence or two would be incredibly helpful.
-
-Thanks,
-[Your Name]
-```
+See [testimonial-request-email.md](testimonial-request-email.md) for the complete client testimonial request email template with question prompts and sending tips.
 
 ### Data Visualization Suggestions
 

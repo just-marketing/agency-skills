@@ -43,38 +43,7 @@ Document findings and gaps.
 
 Create a standardized naming convention for all events:
 
-**Agency-wide convention:**
-```
-[category]_[action]_[label]
-```
-
-**Categories:**
-- `form` — Form interactions
-- `cta` — Button/CTA clicks
-- `page` — Page-level events
-- `video` — Video interactions
-- `download` — File downloads
-- `ecomm` — Ecommerce events
-- `engage` — Engagement signals
-- `account` — Account/auth events
-
-**Examples:**
-| Event Name | Category | Action | Description |
-|-----------|----------|--------|-------------|
-| `form_submit_contact` | form | submit | Contact form submitted |
-| `form_submit_demo` | form | submit | Demo request form submitted |
-| `form_start_contact` | form | start | Contact form interaction started |
-| `cta_click_pricing` | cta | click | Pricing page CTA clicked |
-| `page_view_pricing` | page | view | Pricing page viewed |
-| `video_play_product` | video | play | Product video started |
-| `video_complete_product` | video | complete | Product video watched to end |
-| `download_click_whitepaper` | download | click | Whitepaper download clicked |
-| `ecomm_add_to_cart` | ecomm | add_to_cart | Product added to cart |
-| `ecomm_purchase` | ecomm | purchase | Purchase completed |
-
-**Key conversion events** (mark as conversions in GA4):
-- Primary: `form_submit_demo`, `ecomm_purchase`, `form_submit_contact`
-- Secondary: `form_start_*`, `page_view_pricing`, `cta_click_*`
+See [event-taxonomy.md](event-taxonomy.md) for the complete agency-wide event naming convention, category definitions, examples, and key conversion event list.
 
 ### Step 3: Configure GA4
 
@@ -101,64 +70,11 @@ Create a standardized naming convention for all events:
 
 ### Step 4: Set Up GTM Container
 
-**Container structure:**
-```
-Tags (naming: [Platform]_[Type]_[Detail])
-├── GA4_Config_Base
-├── GA4_Event_FormSubmit
-├── GA4_Event_CTAClick
-├── GA4_Event_VideoPlay
-├── Meta_Pixel_Base
-├── Meta_Event_Lead
-├── Google_Ads_Conversion_Lead
-├── Google_Ads_Remarketing
-├── LinkedIn_Insight_Base
-└── LinkedIn_Event_Conversion
-
-Triggers (naming: [Type]_[Detail])
-├── Click_SubmitButton
-├── Click_CTAButton
-├── FormSubmission_Contact
-├── FormSubmission_Demo
-├── PageView_ThankYou
-├── Scroll_50Percent
-├── Timer_30Seconds
-└── CustomEvent_VideoPlay
-
-Variables (naming: [Type]_[Detail])
-├── DLV_FormID
-├── DLV_ButtonText
-├── DLV_PageCategory
-├── CSS_CTAButton
-├── URL_QueryParameter_UTM
-└── Const_GA4MeasurementID
-```
-
-**Best practices:**
-- Use folders to organize by platform
-- Version control with clear descriptions
-- Use a naming convention consistently
-- Test in Preview mode before publishing
-- Document every tag's purpose
+See [gtm-container-template.md](gtm-container-template.md) for the complete container structure, naming conventions for tags/triggers/variables, folder organization, and best practices.
 
 ### Step 5: Define UTM Standards
 
-**Agency-wide UTM convention:**
-
-| Parameter | Convention | Examples |
-|-----------|-----------|---------|
-| `utm_source` | Platform name (lowercase) | `google`, `meta`, `linkedin`, `newsletter`, `partner-name` |
-| `utm_medium` | Channel type | `cpc`, `cpm`, `paid-social`, `email`, `organic-social`, `referral` |
-| `utm_campaign` | Campaign name | `spring-2025-launch`, `brand-awareness-q2`, `retargeting-cart` |
-| `utm_content` | Creative/ad variant | `headline-a`, `video-testimonial`, `carousel-products` |
-| `utm_term` | Keyword (search only) | `marketing+agency`, `seo+services` |
-
-**Rules:**
-- Always lowercase
-- Use hyphens, not spaces or underscores
-- Be consistent across all clients (the convention is the same; the values are client-specific)
-- Document in a shared UTM builder spreadsheet
-- Never use UTMs on internal links
+See [utm-standards.md](utm-standards.md) for the complete agency-wide UTM parameter convention, rules, common medium values, and example UTM strings.
 
 ### Step 6: Select Attribution Model
 

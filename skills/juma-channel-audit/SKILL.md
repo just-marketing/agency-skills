@@ -57,11 +57,8 @@ Performs a comprehensive channel-by-channel marketing assessment that evaluates 
 5. **Calculate effort/impact ratio for each channel**
    - Estimate implementation effort: budget required, team skills needed, time to launch, ongoing maintenance
    - Estimate potential impact: traffic potential, conversion potential, revenue potential, brand value
-   - Categorize each channel into the effort/impact matrix quadrants:
-     - **Quick Wins**: Low effort, high impact -- do these first
-     - **Strategic Bets**: High effort, high impact -- plan and invest
-     - **Fill-Ins**: Low effort, low impact -- do if resources allow
-     - **Deprioritize**: High effort, low impact -- avoid or defer
+   - Categorize each channel into the effort/impact matrix quadrants (Quick Wins, Strategic Bets, Fill-Ins, Deprioritize)
+   - See [effort-impact-matrix.md](effort-impact-matrix.md) for the complete matrix visualization, quadrant definitions, and estimation factors
 
 6. **Build prioritized channel mix recommendation**
    - Recommend primary channels (top 2-3 receiving majority of budget/effort)
@@ -84,58 +81,13 @@ Performs a comprehensive channel-by-channel marketing assessment that evaluates 
 
 ## Channel Assessment
 
-### 1. Organic Search
-- **Status:** [Active/Inactive/Underutilized]
-- **Current Performance:**
-  - Monthly sessions: [X] ([trend] vs prior period)
-  - Conversion rate: [X%]
-  - Revenue/leads attributed: [X]
-- **Industry Benchmark Comparison:**
-  - [Metric]: [Client value] vs [Benchmark] ([above/below by X%])
-- **Opportunity Score:** [X/10]
-- **Effort/Impact:** [Quick Win / Strategic Bet / Fill-In / Deprioritize]
-- **Key Findings:** [2-3 bullet points]
-- **Recommended Actions:**
-  1. [Action with expected impact]
-  2. [Action with expected impact]
-  3. [Action with expected impact]
+Use the per-channel scorecard structure for each of the 8 channels. See [channel-scorecard-template.md](channel-scorecard-template.md) for the complete scorecard structure and opportunity scoring guide.
 
-### 2. Paid Search
-[Same structure as above]
-
-### 3. Paid Social
-[Same structure as above]
-
-### 4. Organic Social
-[Same structure as above]
-
-### 5. Email Marketing
-[Same structure as above]
-
-### 6. Content Marketing
-[Same structure as above]
-
-### 7. Referral & Partnerships
-[Same structure as above]
-
-### 8. Direct / Brand
-[Same structure as above]
+Channels to assess: Organic Search, Paid Search, Paid Social, Organic Social, Email Marketing, Content Marketing, Referral & Partnerships, Direct/Brand.
 
 ## Effort/Impact Matrix
 
-```
-                    HIGH IMPACT
-                        |
-     Strategic Bets     |     Quick Wins
-     [channels]         |     [channels]
-                        |
-  HIGH EFFORT ----------+---------- LOW EFFORT
-                        |
-     Deprioritize       |     Fill-Ins
-     [channels]         |     [channels]
-                        |
-                    LOW IMPACT
-```
+See [effort-impact-matrix.md](effort-impact-matrix.md) for the complete matrix visualization and quadrant definitions.
 
 ## Recommended Channel Mix
 

@@ -73,31 +73,15 @@ Develop core campaign messaging:
 
 ### Step 5: Creative Briefs by Channel
 
-For each selected channel, create a mini-brief:
+For each selected channel, create a mini-brief covering objective, audience, message, format, CTA, landing page, assets needed, and specs.
 
-```
-Channel: [Platform/Channel]
-Objective: [Channel-specific goal]
-Audience: [Platform-specific targeting]
-Message: [Adapted key message]
-Format: [Ad format, content type, specs]
-CTA: [Channel-appropriate action]
-Landing page: [Destination URL]
-Assets needed: [Copy, images, video, etc.]
-Specs: [Dimensions, character limits, file formats]
-```
+See [creative-brief-template.md](creative-brief-template.md) for the complete per-channel brief template, channel-specific considerations (Paid Social, Paid Search, Email, Content, Organic Social), and the brief checklist.
 
 ### Step 6: Budget Allocation
 
-Allocate budget across channels and phases:
+Allocate budget across channels and phases. Include a budget pacing schedule with daily/weekly/monthly spend targets.
 
-1. **Total budget**: Confirmed with client
-2. **Channel split**: % allocation with rationale
-3. **Phase split**: Launch (heavy spend), sustain, optimize
-4. **Contingency**: 10-15% reserve for scaling winners or pivoting
-5. **Agency fees vs media spend**: Transparent breakdown
-
-Include a budget pacing schedule (daily/weekly/monthly spend targets).
+See [budget-pacing-template.md](budget-pacing-template.md) for the complete budget allocation tables, phase-based pacing schedule, budget reallocation rules, and spend tracking template.
 
 ### Step 7: Campaign Timeline
 
@@ -177,22 +161,12 @@ Identify testable elements within the campaign:
 |---------|------|--------|------------|--------------|
 | [Channel] | [Role] | $[X] ([%]) | [Metric: Target] | [Format] |
 
-### [Channel 1] Creative Brief
-- **Objective**: [Goal]
-- **Format**: [Specs]
-- **Message**: [Adapted message]
-- **CTA**: [Action]
-- **Assets needed**: [List]
-
-[Repeat for each channel]
+### Per-Channel Creative Briefs
+See [creative-brief-template.md](creative-brief-template.md) for the per-channel brief format. Repeat for each channel.
 
 ## Budget Allocation
 
-| Channel | Monthly Budget | Daily Pace | % of Total |
-|---------|---------------|------------|------------|
-| [Channel] | $[X] | $[Y] | [Z%] |
-| Contingency | $[X] | — | [10-15%] |
-| **Total** | **$[X]** | **$[Y]** | **100%** |
+See [budget-pacing-template.md](budget-pacing-template.md) for the complete budget allocation, phase-based pacing, and tracking tables.
 
 ## Campaign Timeline
 

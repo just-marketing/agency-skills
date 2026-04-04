@@ -138,110 +138,19 @@ For each competitor on each active platform:
 
 ## Competitor Profiles
 
-### [Competitor 1 Name]
-
-**Overview:** [1-2 sentences on who they are and market position]
-
-**Brand Positioning:**
-- **Value Proposition:** [Their core promise]
-- **Messaging Pillars:** [Theme 1], [Theme 2], [Theme 3]
-- **Voice & Tone:** [Description]
-- **Target Audience:** [Who their marketing speaks to]
-
-**Channel Presence:**
-
-| Channel | Activity Level | Notes |
-|---------|---------------|-------|
-| Website/Blog | [Heavy/Active/Minimal/None] | [Key observations] |
-| Organic Search | [Heavy/Active/Minimal/None] | [DA: X, Est. monthly traffic: X] |
-| Paid Search | [Heavy/Active/Minimal/None] | [Key observations] |
-| Paid Social | [Heavy/Active/Minimal/None] | [Platforms, estimated spend] |
-| Organic Social | [Heavy/Active/Minimal/None] | [Top platforms, engagement] |
-| Email | [Heavy/Active/Minimal/None] | [Key observations] |
-| Video/YouTube | [Heavy/Active/Minimal/None] | [Key observations] |
-| PR/Earned | [Heavy/Active/Minimal/None] | [Key observations] |
-
-**SEO Profile:**
-- **Domain Authority/Rating:** [Score]
-- **Estimated Organic Traffic:** [Monthly]
-- **Top Keywords (by traffic value):** [Keyword 1], [Keyword 2], [Keyword 3], [Keyword 4], [Keyword 5]
-- **Content Volume:** [X blog posts/month, X total indexed pages]
-- **Backlink Profile:** [X referring domains, acquisition trend]
-
-**Advertising Activity:**
-- **Active Platforms:** [List]
-- **Ad Types:** [Image, video, carousel, etc.]
-- **Key Messaging Themes:** [Theme 1], [Theme 2]
-- **Estimated Monthly Spend:** [Range or proxy indicator]
-- **Notable Campaigns:** [Description of any standout campaigns]
-
-**Social Media Snapshot:**
-
-| Platform | Followers | Growth Trend | Posting Frequency | Engagement Rate | Top Content Themes |
-|----------|-----------|-------------|-------------------|-----------------|-------------------|
-| LinkedIn | [Count] | [Up/Flat/Down] | [X/week] | [X%] | [Themes] |
-| Instagram | [Count] | [Up/Flat/Down] | [X/week] | [X%] | [Themes] |
-| Twitter/X | [Count] | [Up/Flat/Down] | [X/week] | [X%] | [Themes] |
-| TikTok | [Count] | [Up/Flat/Down] | [X/week] | [X%] | [Themes] |
-| Facebook | [Count] | [Up/Flat/Down] | [X/week] | [X%] | [Themes] |
-
-**Strengths:** [Top 3 marketing strengths]
-**Weaknesses:** [Top 3 marketing weaknesses]
-
----
-
-### [Competitor 2 Name]
-[Same structure as above]
-
-### [Competitor 3 Name]
-[Same structure as above]
-
-### [Competitor 4 Name]
-[Same structure as above]
-
-### [Competitor 5 Name]
-[Same structure as above]
+Repeat the full competitor profile for each of the 3-5 competitors analyzed. See [competitor-profile-template.md](competitor-profile-template.md) for the complete per-competitor template covering brand positioning, channel presence, SEO profile, advertising activity, social media snapshot, and strengths/weaknesses.
 
 ---
 
 ## Competitive Matrix
 
-| Dimension | [Client] | [Comp 1] | [Comp 2] | [Comp 3] | [Comp 4] | [Comp 5] |
-|-----------|----------|----------|----------|----------|----------|----------|
-| **Positioning** | [Summary] | [Summary] | [Summary] | [Summary] | [Summary] | [Summary] |
-| **Primary Audience** | [Segment] | [Segment] | [Segment] | [Segment] | [Segment] | [Segment] |
-| **Domain Authority** | [Score] | [Score] | [Score] | [Score] | [Score] | [Score] |
-| **Est. Organic Traffic** | [Monthly] | [Monthly] | [Monthly] | [Monthly] | [Monthly] | [Monthly] |
-| **Content Volume** | [Posts/mo] | [Posts/mo] | [Posts/mo] | [Posts/mo] | [Posts/mo] | [Posts/mo] |
-| **Social Following (Total)** | [Count] | [Count] | [Count] | [Count] | [Count] | [Count] |
-| **Social Engagement** | [Rate] | [Rate] | [Rate] | [Rate] | [Rate] | [Rate] |
-| **Paid Media Activity** | [Level] | [Level] | [Level] | [Level] | [Level] | [Level] |
-| **Est. Ad Spend** | [Range] | [Range] | [Range] | [Range] | [Range] | [Range] |
-| **Email Marketing** | [Level] | [Level] | [Level] | [Level] | [Level] | [Level] |
-| **Video/YouTube** | [Level] | [Level] | [Level] | [Level] | [Level] | [Level] |
+See [competitive-matrix-template.md](competitive-matrix-template.md) for the full side-by-side comparison matrix structure and activity level definitions.
 
 ---
 
 ## Positioning Map
 
-```
-[Axis Label: e.g., Technical -------> Accessible]
-
-                HIGH [Axis 2, e.g., Premium]
-                    |
-    [Comp A]        |          [Comp B]
-                    |
-                    |     [Client]
-                    |
-LOW [Axis 1] ------+------ HIGH [Axis 1]
-                    |
-         [Comp C]   |
-                    |    [Comp D]
-                    |
-                LOW [Axis 2, e.g., Value]
-```
-
-**Positioning Interpretation:** [2-3 sentences explaining where the client sits relative to competitors and what whitespace exists on the map.]
+See [positioning-map-template.md](positioning-map-template.md) for the positioning map template, axis selection guide, and plotting guidelines.
 
 ---
 
