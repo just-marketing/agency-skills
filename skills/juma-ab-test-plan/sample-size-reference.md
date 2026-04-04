@@ -1,8 +1,8 @@
 # Sample Size Reference Table
 
-Use this table to quickly estimate the required sample size per variant for A/B tests. All figures assume 95% statistical significance (alpha = 0.05) and 80% statistical power (beta = 0.20).
+Use this table to estimate the required sample size per variant for A/B tests. All figures assume 95% statistical significance (alpha = 0.05) and 80% statistical power (beta = 0.20).
 
-## Quick Reference
+## Quick Reference: Sample Size Per Variant
 
 | Baseline Rate | MDE (Relative) | Sample Size Per Variant |
 |---------------|----------------|------------------------|
@@ -16,29 +16,38 @@ Use this table to quickly estimate the required sample size per variant for A/B 
 
 ## How to Use This Table
 
-### Inputs Required
+1. **Identify your baseline conversion rate**: The current rate for the metric you are testing (e.g., form completion rate is 5%).
+2. **Choose your Minimum Detectable Effect (MDE)**: The smallest improvement worth detecting. Typically 10-20% relative. A 20% relative MDE on a 5% baseline means you want to detect a change from 5.0% to 6.0%.
+3. **Look up the required sample size per variant**: This is the number of visitors needed in EACH variant (control and treatment).
+4. **Calculate test duration**: `(Sample size per variant x Number of variants) / Daily traffic to the test page`
 
-1. **Baseline conversion rate**: The current rate for the metric being tested (e.g., form completion rate is 5%)
-2. **Minimum Detectable Effect (MDE)**: The smallest improvement worth detecting, expressed as a relative percentage (e.g., 20% relative improvement means detecting a change from 5% to 6%)
-3. **Number of variants**: Control + 1 or more treatments
+## Test Duration Calculation
 
-### Calculating Test Duration
-
+**Formula:**
 ```
-Test duration = (Sample size per variant x Number of variants) / Daily traffic to the test page
+Test duration (days) = (Sample size per variant x Number of variants) / Daily traffic
 ```
 
-**Example:** Baseline rate is 5%, you want to detect a 20% relative improvement, and you have 2 variants (control + treatment):
-- Required sample: ~30,000 per variant = ~60,000 total
-- If the test page gets 1,000 visitors/day: 60,000 / 1,000 = **60 days**
+**Example:**
+- Baseline rate: 5%
+- MDE: 20% relative
+- Sample size per variant: ~30,000
+- Number of variants: 2 (control + 1 treatment)
+- Daily traffic to test page: 2,000 visitors/day
+- Test duration: (30,000 x 2) / 2,000 = **30 days**
 
-### Minimum Test Duration
+## Important Rules
 
-Always run a test for at least **1 full business cycle** (typically 1-2 weeks) regardless of sample size. This accounts for day-of-week effects that could skew results.
+- **Minimum test duration**: Always run for at least 1 full business cycle (typically 1-2 weeks) regardless of sample size, to account for day-of-week effects.
+- **Do not stop early**: Peeking at results and stopping when they "look good" inflates false positive rates. Wait for the full sample size.
+- **Multivariate tests (MVT)**: Multiply the sample size requirement by the number of combinations. MVT requires significantly more traffic than simple A/B tests.
+- **Multiple variants**: If testing A vs B vs C, you need the sample size per variant for each of the 3 variants, tripling total traffic needs compared to a simple 2-variant test.
 
-### Key Considerations
+## When Sample Size Is Too Large
 
-- **Lower baseline rates require much larger samples**: A 1% conversion rate needs 5x more traffic than a 5% rate to detect the same relative change
-- **Smaller MDE requires more traffic**: Detecting a 10% improvement needs ~4x more traffic than detecting a 20% improvement
-- **Multivariate tests multiply the requirement**: Each additional variant increases total sample size proportionally
-- **Be realistic about MDE**: Hoping to detect a 2% relative improvement with 500 visitors/day means a test lasting months -- set MDE at 10-20% relative for practical test durations
+If the required sample size makes the test impractical (test would take months):
+1. **Increase the MDE**: Accept that you can only detect larger effects
+2. **Test a bigger change**: Subtle changes need large samples; bold changes are detectable sooner
+3. **Test on a higher-traffic page**: Move the test to a page with more visitors
+4. **Reduce the number of variants**: Fewer variants = less total traffic needed
+5. **Reconsider whether to test**: If the test would take 6+ months, the opportunity cost may not be worth it

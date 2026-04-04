@@ -1,6 +1,6 @@
 # Bidding Strategy Guide
 
-Use this matrix to select the appropriate bidding strategy for each platform and campaign type. Document bid caps, floors, and adjustment schedules.
+Use this matrix to select the appropriate bidding strategy for each platform and campaign type.
 
 ## Bidding Strategy Selection Matrix
 
@@ -12,39 +12,44 @@ Use this matrix to select the appropriate bidding strategy for each platform and
 | **Maximize conversions** | Budget-constrained, growth phase | Medium-High |
 | **Maximize clicks** | Traffic campaigns, initial data gathering | Low |
 
-## Strategy Selection Guidelines
+## Strategy Selection by Campaign Maturity
 
-### When to start with Manual CPC/CPM
-- Brand new campaigns with no historical conversion data
-- Very tight budgets where overspend is not acceptable
-- Testing phase where you need granular control over costs
-- Transition to automated bidding once you have 30-50 conversions per month
+| Campaign Phase | Recommended Strategy | Rationale |
+|----------------|---------------------|-----------|
+| **Launch (Week 1-2)** | Manual CPC or Maximize Clicks | Gather initial data, control costs |
+| **Learning (Week 3-4)** | Maximize Conversions | Let the algorithm optimize with early data |
+| **Scaling (Month 2+)** | Target CPA or Target ROAS | Sufficient conversion data for efficient bidding |
+| **Mature (Month 3+)** | Target CPA/ROAS with adjustments | Fine-tune targets based on performance history |
 
-### When to use Target CPA
-- The campaign has at least 50 conversions in the last 30 days
-- You have a clear cost-per-acquisition target from unit economics
-- Set the target CPA at or slightly above the current average CPA, then optimize down
-- Allow a 2-week learning period after changing bid strategy
+## Platform-Specific Recommendations
 
-### When to use Target ROAS
-- Ecommerce accounts with conversion value tracking properly configured
-- The campaign has sufficient conversion volume with value data
-- Set initial target ROAS at or below current ROAS, then increase gradually
+### Google Ads
+- **Search**: Start with Manual CPC, transition to Target CPA after 30+ conversions
+- **Display**: Maximize Conversions or Target CPA (manual bidding is less effective on Display)
+- **Shopping**: Target ROAS for established products; Maximize Conversions for new catalogs
+- **YouTube**: Target CPV for awareness; Maximize Conversions for action campaigns
 
-### When to use Maximize Conversions
-- Growth-phase campaigns where volume matters more than efficiency
-- Budget is fixed and the goal is to get as many conversions as possible within that budget
-- Be prepared for CPA fluctuation -- this strategy prioritizes volume over cost control
+### Meta (Facebook/Instagram)
+- **Default**: Lowest Cost (automatic) for learning phase
+- **Scaling**: Cost Cap when CPA target is firm
+- **Ecommerce**: Minimum ROAS for revenue optimization
+- **Note**: Meta needs ~50 conversions per week per ad set for optimal delivery
 
-### When to use Maximize Clicks
-- Early-stage campaigns gathering initial traffic data
-- Awareness or consideration campaigns where clicks are the primary metric
-- Landing page tests where you need traffic volume quickly
+### LinkedIn
+- **Lead Gen**: Manual CPC (LinkedIn's automated bidding tends to overspend)
+- **Awareness**: Maximum Delivery with daily budget cap
+- **Note**: Monitor closely -- LinkedIn CPCs are 3-5x other platforms
 
-## Bidding Documentation Template
+### TikTok
+- **Launch**: Lowest Cost to gather data
+- **Scaling**: Cost Cap once baseline CPA is established
+- **Note**: Similar optimization requirements to Meta
 
-For each platform and campaign, record:
+## Bid Management Checklist
 
-| Platform | Campaign Type | Bid Strategy | Target | Cap | Floor | Review Cadence |
-|----------|--------------|-------------|--------|-----|-------|----------------|
-| [Platform] | [Type] | [Strategy] | $[X] | $[X] | $[X] | [Weekly/Biweekly] |
+- [ ] Document bid strategy per campaign with rationale
+- [ ] Set bid caps or floors where appropriate
+- [ ] Define bid adjustment schedule (when to review and change)
+- [ ] Plan strategy transitions as campaigns mature (e.g., Manual to Target CPA)
+- [ ] Monitor for bid strategy "learning period" disruptions after changes
+- [ ] Review actual CPA/ROAS vs. targets weekly

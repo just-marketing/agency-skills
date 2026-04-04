@@ -1,6 +1,6 @@
 # Campaign Architecture Template
 
-Structure campaigns using platform best practices with consistent naming conventions and a clear hierarchy.
+Structure campaigns using platform best practices with consistent naming conventions and hierarchy.
 
 ## Campaign Hierarchy
 
@@ -13,58 +13,69 @@ Account
 
 ## Naming Convention
 
-**Campaign level:** `[Client]_[Objective]_[Audience]_[Date]`
+**Standard format:** `[Client]_[Objective]_[Audience]_[Date]`
 
-Examples:
-- `Acme_Conversion_Retargeting_2025-Q2`
-- `Acme_Awareness_Lookalike-TopCustomers_2025-04`
-- `Acme_LeadGen_B2B-ITManagers_2025-Q2`
+### Examples
 
-**Ad Set / Ad Group level:** `[Audience Segment]_[Placement]_[Geo]`
+| Level | Naming Pattern | Example |
+|-------|---------------|---------|
+| Campaign | `[Client]_[Objective]_[Audience]_[YYYY-MM]` | `Acme_LeadGen_Retargeting_2025-03` |
+| Ad Set/Group | `[Audience-Segment]_[Placement]_[Geo]` | `WebVisitors-30d_Feed_US` |
+| Ad | `[Format]_[Message]_[Variant]` | `Carousel_Testimonial_V2` |
 
-Examples:
-- `Lookalike-Purchasers_Feed-Stories_US`
-- `Retargeting-CartAbandoners_AllPlacements_US`
-
-**Ad level:** `[Format]_[Creative Concept]_[Version]`
-
-Examples:
-- `Video_Testimonial-CEO_V1`
-- `Carousel_ProductFeatures_V2`
-- `StaticImage_PainPoint-Security_V1`
-
-## Architecture Decisions
+## Architecture Planning Checklist
 
 For each platform, define:
 
-| Element | Decision | Notes |
-|---------|----------|-------|
-| **Number of campaigns** | By objective, audience, or funnel stage | [Rationale] |
-| **Ad sets/groups per campaign** | By audience segment, placement, or geography | [Rationale] |
-| **Ads per ad set** | 3-5 variations for testing | [Creative plan] |
-| **Ad rotation** | Optimize for conversions vs even distribution | [Strategy] |
+- **Number of campaigns**: Organized by objective, audience, or funnel stage
+- **Ad sets/groups per campaign**: By audience segment, placement, or geography
+- **Ads per ad set**: 3-5 variations for testing
+- **Ad rotation setting**: Optimize for conversions vs. even distribution
 
-## Example Architecture
+## Architecture by Funnel Stage
 
+### Awareness Campaigns
 ```
-Acme Corp Google Ads Account
-├── Campaign: Acme_Search_Brand_2025-Q2 (Budget: $50/day)
-│   └── Ad Group: Brand-Terms_US
-│       ├── Ad: RSA_BrandMessage_V1
-│       └── Ad: RSA_BrandMessage_V2
-├── Campaign: Acme_Search_NonBrand_2025-Q2 (Budget: $200/day)
-│   ├── Ad Group: DataSecurity-Keywords_US
-│   │   ├── Ad: RSA_SecurityPitch_V1
-│   │   ├── Ad: RSA_SecurityPitch_V2
-│   │   └── Ad: RSA_SecurityPitch_V3
-│   └── Ad Group: ComplianceAutomation-Keywords_US
-│       ├── Ad: RSA_CompliancePitch_V1
-│       └── Ad: RSA_CompliancePitch_V2
-└── Campaign: Acme_Display_Retargeting_2025-Q2 (Budget: $75/day)
-    ├── Ad Set: SiteVisitors-30Day_AllPlacements
-    │   ├── Ad: ResponsiveDisplay_Testimonial_V1
-    │   └── Ad: ResponsiveDisplay_ProductDemo_V1
-    └── Ad Set: CartAbandoners-7Day_AllPlacements
-        ├── Ad: ResponsiveDisplay_Discount_V1
-        └── Ad: ResponsiveDisplay_Urgency_V1
+Campaign: [Client]_Awareness_[Audience]_[Date]
+├── Ad Set: Broad-Interest_AllPlacements
+│   ├── Ad: Video_BrandStory_V1
+│   ├── Ad: Video_BrandStory_V2
+│   └── Ad: Static_BrandAwareness_V1
+└── Ad Set: Lookalike-Customers_AllPlacements
+    ├── Ad: Video_BrandStory_V1
+    └── Ad: Video_BrandStory_V2
 ```
+
+### Consideration Campaigns
+```
+Campaign: [Client]_Consideration_[Audience]_[Date]
+├── Ad Set: Interest-Based_Feed
+│   ├── Ad: Carousel_ProductFeatures_V1
+│   ├── Ad: SingleImage_CaseStudy_V1
+│   └── Ad: Video_ProductDemo_V1
+└── Ad Set: Engagement-Retargeting_Feed
+    ├── Ad: Carousel_Testimonials_V1
+    └── Ad: SingleImage_Offer_V1
+```
+
+### Conversion Campaigns
+```
+Campaign: [Client]_Conversion_[Audience]_[Date]
+├── Ad Set: WebVisitors-30d_AllPlacements
+│   ├── Ad: SingleImage_DirectCTA_V1
+│   ├── Ad: SingleImage_DirectCTA_V2
+│   └── Ad: Carousel_ProductBenefits_V1
+└── Ad Set: CartAbandoners-7d_AllPlacements
+    ├── Ad: DPA_DynamicProduct_V1
+    └── Ad: SingleImage_Urgency_V1
+```
+
+## Naming Convention Rules
+
+1. Use underscores (`_`) to separate fields
+2. Use hyphens (`-`) within field values (e.g., `Cart-Abandoners`)
+3. Keep names concise but descriptive
+4. Use consistent date format: `YYYY-MM`
+5. Version creative variants with `V1`, `V2`, etc.
+6. Never use spaces in campaign names
+7. Document the convention in a shared reference so all team members follow it

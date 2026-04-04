@@ -1,8 +1,8 @@
 # KPI Dashboard Template
 
-Use this table as the central performance snapshot at the top of every client report. Every KPI must show actual vs. target vs. prior period -- this three-way comparison tells the full story: are we improving, and are we where we need to be?
+Use this table structure at the top of every client performance report. Every KPI must show actual vs. target vs. prior period for the complete performance picture.
 
-## KPI Dashboard
+---
 
 | KPI | This Period | Last Period | Change | Target | vs Target | YTD Progress |
 |---|---|---|---|---|---|---|
@@ -13,17 +13,11 @@ Use this table as the central performance snapshot at the top of every client re
 | [KPI 5, e.g., Organic Traffic] | [Value] | [Value] | [+/-X%] | [Value] | [Above/Below by X%] | [X% toward annual goal] |
 | [KPI 6, e.g., Conversion Rate] | [Value] | [Value] | [+/-X%] | [Value] | [Above/Below by X%] | [X% toward annual goal] |
 
-## Column Definitions
-
-- **This Period**: Current reporting period value (month or week)
-- **Last Period**: Previous reporting period value for period-over-period comparison
-- **Change**: Percentage change from last period (flag any metric that moved more than 15% in either direction)
-- **Target**: The goal for this period as defined in juma-client-context
-- **vs Target**: Whether actual performance is above or below target, and by how much
-- **YTD Progress**: Cumulative progress toward the annual goal, expressed as a percentage
+---
 
 ## Usage Notes
 
-- Pull KPIs and targets from juma-client-context
-- Ensure data sources are consistent with prior reports -- switching attribution models or date ranges destroys trend analysis credibility
-- Every metric that moved more than 15% needs a "why" explanation in the analysis sections
+- Pull KPIs from juma-client-context goals and KPI definitions
+- Flag any metric that moved more than 15% in either direction -- these are the stories in your data
+- Calculate progress toward period targets and annual goals
+- Ensure data sources are consistent with prior reports to maintain trend analysis credibility

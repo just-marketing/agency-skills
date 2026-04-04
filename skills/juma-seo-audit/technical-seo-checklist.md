@@ -1,107 +1,123 @@
-# Technical SEO Audit Checklist
+# Technical SEO Checklist
 
-Use this checklist during Step 2 of the SEO audit process. Evaluate each element and score its health.
+Use this checklist when evaluating the Technical SEO pillar (30% weight) of the SEO audit. Each item should be assessed and scored for the overall technical health score.
 
-## 1. Crawlability
+---
 
-- [ ] Can search engines discover and access all important pages?
-- [ ] Are there crawl errors (4xx, 5xx)?
-- [ ] Are there redirect chains or loops?
-- [ ] Are there orphan pages (no internal links pointing to them)?
-- [ ] Is JavaScript rendering blocking crawling of important content?
+## 1. Crawlability & Indexation
 
-## 2. Indexation
+- [ ] **Crawl all pages** -- Capture HTTP status codes, redirects, canonical tags, and meta data
+- [ ] **Identify crawl errors** -- Document all 4xx and 5xx errors
+- [ ] **Check redirect chains** -- Flag chains of 2+ redirects; note the longest chain
+- [ ] **Find orphan pages** -- Pages with no internal links pointing to them
+- [ ] **Review XML sitemaps** -- Present, submitted to GSC, accurate, no errors
+- [ ] **Review robots.txt** -- Check for unintentional blocks on important pages
+- [ ] **Compare crawlable vs. indexed pages** -- GSC index coverage vs. crawl count
+- [ ] **Check JavaScript rendering** -- Verify JS-dependent content is accessible to crawlers
 
-- [ ] Are the right pages indexed?
-- [ ] Are the wrong pages indexed (index bloat)?
-- [ ] Total crawlable pages vs. total indexed pages (Google Search Console) -- is there a significant gap?
-- [ ] Are noindex tags applied correctly?
-- [ ] Are canonical tags implemented and pointing to the correct URLs?
+### Output Table
 
-## 3. Site Speed
+| Check | Status | Details |
+|-------|--------|---------|
+| Total pages crawled | [Number] | [Notes] |
+| Pages indexed (GSC) | [Number] | [Indexed vs. crawled gap analysis] |
+| Crawl errors (4xx) | [Count] | [Top errors listed] |
+| Crawl errors (5xx) | [Count] | [Top errors listed] |
+| Redirect chains | [Count] | [Longest chain noted] |
+| Orphan pages | [Count] | [Impact assessment] |
+| XML sitemap | [Present/Missing] | [Errors or issues] |
+| Robots.txt | [Correct/Issues] | [Specific problems] |
 
-Run PageSpeed Insights on 5-10 key page types. Document scores for mobile and desktop.
+---
 
-| Page Type | Mobile Score | Desktop Score | Target |
-|-----------|-------------|---------------|--------|
-| Homepage | | | 90+ |
-| Category/Service Page | | | 90+ |
-| Product/Detail Page | | | 90+ |
-| Blog Post | | | 90+ |
-| Landing Page | | | 90+ |
+## 2. Site Speed & Core Web Vitals
 
-## 4. Core Web Vitals
+Test 5-10 key page types using PageSpeed Insights / Lighthouse.
 
-| Metric | Target | Mobile | Desktop | Pass/Fail |
-|--------|--------|--------|---------|-----------|
-| LCP (Largest Contentful Paint) | <2.5s | | | |
-| INP (Interaction to Next Paint) | <200ms | | | |
-| CLS (Cumulative Layout Shift) | <0.1 | | | |
-| TTFB (Time to First Byte) | <800ms | | | |
+- [ ] **PageSpeed Score** -- Mobile and desktop (target: 90+)
+- [ ] **LCP (Largest Contentful Paint)** -- Target: <2.5s
+- [ ] **INP (Interaction to Next Paint)** -- Target: <200ms
+- [ ] **CLS (Cumulative Layout Shift)** -- Target: <0.1
+- [ ] **TTFB (Time to First Byte)** -- Target: <800ms
 
-## 5. Mobile-Friendliness
+### Output Table
 
-- [ ] Responsive design implemented correctly
-- [ ] Touch targets are properly sized (minimum 44x44 pixels)
-- [ ] Viewport is configured correctly
-- [ ] No mobile-specific UX issues (horizontal scroll, overlapping elements)
-- [ ] Mobile content parity with desktop
+| Metric | Mobile | Desktop | Target | Status |
+|--------|--------|---------|--------|--------|
+| PageSpeed Score | [Score] | [Score] | 90+ | [Pass/Fail] |
+| LCP | [Time] | [Time] | <2.5s | [Pass/Fail] |
+| INP | [Time] | [Time] | <200ms | [Pass/Fail] |
+| CLS | [Score] | [Score] | <0.1 | [Pass/Fail] |
+| TTFB | [Time] | [Time] | <800ms | [Pass/Fail] |
 
-## 6. Structured Data
+### Page-Level Breakdown
 
-| Schema Type | Implemented? | Correct? | Opportunity |
-|-------------|-------------|----------|-------------|
-| Organization | Yes/No | Yes/No/N/A | |
-| Breadcrumb | Yes/No | Yes/No/N/A | |
-| FAQ | Yes/No | Yes/No/N/A | |
-| Product | Yes/No | Yes/No/N/A | |
-| Review/Rating | Yes/No | Yes/No/N/A | |
-| Article | Yes/No | Yes/No/N/A | |
-| Local Business | Yes/No | Yes/No/N/A | |
-| How-To | Yes/No | Yes/No/N/A | |
+| Page Type | Mobile Score | LCP | INP | CLS |
+|-----------|-------------|-----|-----|-----|
+| Homepage | [Score] | [Time] | [Time] | [Score] |
+| Category/Service | [Score] | [Time] | [Time] | [Score] |
+| Product/Detail | [Score] | [Time] | [Time] | [Score] |
+| Blog Post | [Score] | [Time] | [Time] | [Score] |
+| Landing Page | [Score] | [Time] | [Time] | [Score] |
 
-## 7. XML Sitemaps
+---
 
-- [ ] XML sitemap is present and accessible
-- [ ] Sitemap has been submitted to Google Search Console
-- [ ] Sitemap is accurate (no 404s, no non-canonical URLs)
-- [ ] Sitemap is up-to-date (includes all important pages)
-- [ ] Sitemap file size is within limits (50,000 URLs / 50MB per file)
+## 3. Mobile-Friendliness
 
-## 8. Robots.txt
+- [ ] **Responsive design** -- Pages render correctly across viewport sizes
+- [ ] **Touch targets** -- All interactive elements meet minimum size (44x44px)
+- [ ] **Viewport configuration** -- Proper meta viewport tag
+- [ ] **Mobile-specific UX** -- No horizontal scroll, text readable without zoom
 
-- [ ] Robots.txt is present and accessible
-- [ ] Not blocking any important pages or resources
-- [ ] Correctly blocking pages that should not be crawled
-- [ ] References XML sitemap location
-- [ ] No conflicting directives
+---
 
-## 9. HTTPS & Security
+## 4. Structured Data
 
-- [ ] Full HTTPS implementation across all pages
-- [ ] No mixed content issues (HTTP resources on HTTPS pages)
-- [ ] HTTP-to-HTTPS redirects in place
-- [ ] Security headers implemented (HSTS, CSP, X-Frame-Options)
-- [ ] SSL certificate is valid and not expiring soon
+- [ ] **Audit current schema markup** -- List all implemented types
+- [ ] **Validate implementation** -- Check for errors via Google Rich Results Test
+- [ ] **Identify missing opportunities** -- Compare against relevant schema types
 
-## 10. URL Structure
+### Output Table
 
-- [ ] URLs are clean, descriptive, and human-readable
-- [ ] URL parameters are handled correctly (not creating duplicate content)
-- [ ] No duplicate content from URL variations (trailing slashes, www vs. non-www, case sensitivity)
-- [ ] URL depth is reasonable (important pages within 3 levels)
+| Schema Type | Implemented | Correct | Opportunity |
+|-------------|------------|---------|-------------|
+| Organization | [Yes/No] | [Yes/No/N/A] | [Notes] |
+| Breadcrumb | [Yes/No] | [Yes/No/N/A] | [Notes] |
+| FAQ | [Yes/No] | [Yes/No/N/A] | [Notes] |
+| Product | [Yes/No] | [Yes/No/N/A] | [Notes] |
+| Review/Rating | [Yes/No] | [Yes/No/N/A] | [Notes] |
+| Article | [Yes/No] | [Yes/No/N/A] | [Notes] |
+| Local Business | [Yes/No] | [Yes/No/N/A] | [Notes] |
+| How-To | [Yes/No] | [Yes/No/N/A] | [Notes] |
 
-## 11. International/Hreflang (If Applicable)
+---
 
-- [ ] Hreflang tags implemented correctly for all language/region variations
-- [ ] Self-referencing hreflang tags present
-- [ ] Return tags confirmed (bidirectional)
-- [ ] x-default tag present
-- [ ] No conflicting hreflang and canonical directives
+## 5. HTTPS & Security
 
-## 12. Log File Analysis (If Available)
+- [ ] **Full HTTPS implementation** -- All pages served over HTTPS
+- [ ] **Mixed content** -- No HTTP resources loaded on HTTPS pages
+- [ ] **Security headers** -- HSTS, X-Content-Type-Options, X-Frame-Options assessed
 
-- [ ] Crawl budget is being used efficiently
-- [ ] Search engine bots are accessing important pages
-- [ ] No excessive crawling of low-value pages
-- [ ] Crawl frequency aligns with content update frequency
+---
+
+## 6. URL Structure
+
+- [ ] **Clean, descriptive URLs** -- Human-readable, keyword-relevant
+- [ ] **Parameter handling** -- No duplicate content from URL parameters
+- [ ] **Duplicate URL variations** -- Trailing slashes, www vs. non-www, HTTP vs. HTTPS all canonicalized
+
+---
+
+## 7. International / Hreflang (If Applicable)
+
+- [ ] **Hreflang tags** -- Correct implementation for language/region targeting
+- [ ] **Return links** -- Bidirectional hreflang references between language versions
+- [ ] **x-default** -- Default language version specified
+
+---
+
+## 8. Log File Analysis (If Available)
+
+- [ ] **Crawl budget efficiency** -- Are search engines spending crawl budget on important pages?
+- [ ] **Bot frequency** -- How often are key pages crawled?
+- [ ] **Wasted crawl budget** -- Are bots crawling low-value pages (filters, parameters, etc.)?

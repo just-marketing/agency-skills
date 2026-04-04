@@ -1,6 +1,6 @@
 # Content Repurposing Workflow
 
-A systematic cascade for extracting maximum value from each pillar content piece. One source piece should spawn at least 5-8 derivative assets across channels.
+A systematic flow for extracting maximum value from each pillar content piece. Every pillar piece should spawn at least 5-8 derivative assets across channels.
 
 ## Pillar Content Cascade
 
@@ -17,29 +17,38 @@ A systematic cascade for extracting maximum value from each pillar content piece
 
 ## How to Use This Workflow
 
-1. **Start with the pillar piece**: This is your highest-investment content -- a whitepaper, comprehensive guide, research report, or long-form article (2,000+ words).
+1. **Start with the pillar piece**: This is the highest-effort, highest-value content (whitepaper, guide, research report, or long-form article).
+2. **Map derivatives before the source piece is published**: Plan all derivative content during the editorial planning phase, not after publication.
+3. **Assign owners and deadlines for each derivative**: Every step in the cascade needs a named owner and a deadline relative to the source publish date.
+4. **Adapt, don't just clip**: Each derivative should be tailored for its channel. A social snippet is not just a paragraph copy-pasted from the blog -- it is rewritten for the platform's format and audience expectations.
+5. **Stagger the rollout**: Space derivative content over 3-4 weeks to maximize the lifespan of the source piece and maintain a steady publishing cadence.
 
-2. **Plan derivatives before publishing the source**: The repurposing cascade should be mapped at the same time the source piece is planned, not as an afterthought.
+## Cascade Variations by Source Type
 
-3. **Assign owners and timelines**: Each derivative has a different owner and production timeline. All derivatives should be completed within 4 weeks of the source piece publishing.
+### From a Webinar / Live Event
+| Step | Derivative | Channel |
+|---|---|---|
+| 1 | Recorded replay (edited, trimmed) | YouTube / Landing page |
+| 2 | Blog post recap with key takeaways | Blog |
+| 3 | Quote cards from speakers | Social |
+| 4 | Audiogram clips (60-90 seconds) | Social / Podcast feed |
+| 5 | Email follow-up with highlight reel | Email |
 
-4. **Adapt, don't copy**: Each derivative should be reformatted and re-toned for its target channel. A social snippet is not a paragraph copied from the whitepaper -- it is a standalone insight optimized for social engagement.
+### From a Case Study
+| Step | Derivative | Channel |
+|---|---|---|
+| 1 | One-pager PDF | Sales collateral |
+| 2 | LinkedIn post with hero metric | Social |
+| 3 | Twitter/X thread telling the story | Social |
+| 4 | Email featuring the result | Email nurture |
+| 5 | Slide for sales deck | Sales |
 
-5. **Track the cascade**: Use the content calendar to track each derivative as its own line item with its own publish date, owner, and performance target.
-
-## Example Cascade
-
-**Source:** "The Complete Guide to Data Security Compliance in 2025" (3,000-word whitepaper)
-
-| Step | Derivative | Channel | Timeline |
-|---|---|---|---|
-| 1 | "5 Data Security Compliance Mistakes" (blog post) | Blog | Week 1 |
-| 2 | "How to Build a Compliance Audit Checklist" (blog post) | Blog | Week 1 |
-| 3 | "Data Security Compliance: What Changed in 2025" (blog post) | Blog | Week 2 |
-| 4 | 10 stat-based social posts with pull quotes | LinkedIn, Twitter | Week 1-3 |
-| 5 | 3-email nurture series driving to whitepaper download | Email | Week 1-2 |
-| 6 | Compliance checklist infographic | LinkedIn, Blog | Week 2 |
-| 7 | 3-minute animated explainer video | YouTube, LinkedIn | Week 2-3 |
-| 8 | Podcast episode: "Why Most Companies Fail Compliance Audits" | Podcast | Week 3-4 |
-
-**Result:** 1 source piece generates 18+ individual content assets across 5+ channels.
+### From Original Research / Survey
+| Step | Derivative | Channel |
+|---|---|---|
+| 1 | Full report (gated) | Landing page |
+| 2 | Blog post series (one per key finding) | Blog |
+| 3 | Infographic with top-line stats | Social / Blog |
+| 4 | Press release | PR / Earned media |
+| 5 | Webinar presenting findings | Live event |
+| 6 | Social stats series | Social |

@@ -69,110 +69,13 @@ This skill produces reports that lead with insights rather than metrics, address
 
 ## KPI Dashboard
 
-| KPI | This Period | Last Period | Change | Target | vs Target | YTD Progress |
-|---|---|---|---|---|---|---|
-| [KPI 1, e.g., Revenue from Marketing] | [Value] | [Value] | [+/-X%] | [Value] | [Above/Below by X%] | [X% toward annual goal] |
-| [KPI 2, e.g., Marketing Qualified Leads] | [Value] | [Value] | [+/-X%] | [Value] | [Above/Below by X%] | [X% toward annual goal] |
-| [KPI 3, e.g., Customer Acquisition Cost] | [Value] | [Value] | [+/-X%] | [Value] | [Above/Below by X%] | [X% toward annual goal] |
-| [KPI 4, e.g., ROAS] | [Value] | [Value] | [+/-X%] | [Value] | [Above/Below by X%] | [X% toward annual goal] |
-| [KPI 5, e.g., Organic Traffic] | [Value] | [Value] | [+/-X%] | [Value] | [Above/Below by X%] | [X% toward annual goal] |
-| [KPI 6, e.g., Conversion Rate] | [Value] | [Value] | [+/-X%] | [Value] | [Above/Below by X%] | [X% toward annual goal] |
+See [kpi-dashboard-template.md](kpi-dashboard-template.md) for the complete KPI dashboard table structure.
 
 ---
 
 ## Channel Performance
 
-### Organic Search
-**Status:** [Improving / Stable / Declining]
-
-| Metric | This Period | Last Period | Change |
-|---|---|---|---|
-| Sessions | [Value] | [Value] | [+/-X%] |
-| Conversions | [Value] | [Value] | [+/-X%] |
-| Revenue/Leads | [Value] | [Value] | [+/-X%] |
-| Avg. Position (target keywords) | [Value] | [Value] | [+/-X] |
-
-**Analysis:** [2-3 sentences explaining what happened and why. Reference specific actions taken, content published, or technical changes made. Connect to business impact.]
-
-**Recommendation:** [Specific next step with expected impact]
-
----
-
-### Paid Search
-**Status:** [Improving / Stable / Declining]
-
-| Metric | This Period | Last Period | Change |
-|---|---|---|---|
-| Spend | $[Value] | $[Value] | [+/-X%] |
-| Impressions | [Value] | [Value] | [+/-X%] |
-| Clicks / CTR | [Value] / [X%] | [Value] / [X%] | [+/-X%] |
-| Conversions / Conv. Rate | [Value] / [X%] | [Value] / [X%] | [+/-X%] |
-| CPA | $[Value] | $[Value] | [+/-X%] |
-| ROAS | [Value] | [Value] | [+/-X%] |
-
-**Analysis:** [2-3 sentences explaining performance drivers. Reference campaign-level changes, bid strategy adjustments, audience refinements, or competitive dynamics.]
-
-**Recommendation:** [Specific next step with expected impact]
-
----
-
-### Paid Social
-**Status:** [Improving / Stable / Declining]
-
-| Metric | This Period | Last Period | Change |
-|---|---|---|---|
-| Spend | $[Value] | $[Value] | [+/-X%] |
-| Reach / Impressions | [Value] | [Value] | [+/-X%] |
-| Clicks / CTR | [Value] / [X%] | [Value] / [X%] | [+/-X%] |
-| Conversions / Conv. Rate | [Value] / [X%] | [Value] / [X%] | [+/-X%] |
-| CPA | $[Value] | $[Value] | [+/-X%] |
-| ROAS | [Value] | [Value] | [+/-X%] |
-
-**Analysis:** [2-3 sentences. Reference platform-level performance, creative performance, audience insights.]
-
-**Recommendation:** [Specific next step with expected impact]
-
----
-
-### Organic Social
-**Status:** [Improving / Stable / Declining]
-
-| Metric | This Period | Last Period | Change |
-|---|---|---|---|
-| Followers (net new) | [Value] | [Value] | [+/-X%] |
-| Engagement Rate | [X%] | [X%] | [+/-X%] |
-| Reach | [Value] | [Value] | [+/-X%] |
-| Link Clicks to Site | [Value] | [Value] | [+/-X%] |
-
-**Top Performing Content:**
-1. [Post/content description] -- [Key metric, e.g., 2.3K engagements, 8.4% engagement rate]
-2. [Post/content description] -- [Key metric]
-3. [Post/content description] -- [Key metric]
-
-**Analysis:** [2-3 sentences on content themes, posting cadence, and audience response patterns.]
-
-**Recommendation:** [Specific next step with expected impact]
-
----
-
-### Email Marketing
-**Status:** [Improving / Stable / Declining]
-
-| Metric | This Period | Last Period | Change |
-|---|---|---|---|
-| Emails Sent | [Value] | [Value] | [+/-X%] |
-| Open Rate | [X%] | [X%] | [+/-X%] |
-| Click Rate | [X%] | [X%] | [+/-X%] |
-| Unsubscribe Rate | [X%] | [X%] | [+/-X%] |
-| Revenue from Email | $[Value] | $[Value] | [+/-X%] |
-
-**Analysis:** [2-3 sentences on campaign performance, list health, and segmentation effectiveness.]
-
-**Recommendation:** [Specific next step with expected impact]
-
----
-
-[Add additional channels as relevant: Content Marketing, Referral/Partnerships, Direct/Brand, etc.]
+See [channel-performance-template.md](channel-performance-template.md) for the per-channel performance section template with channel-specific metric sets (Organic Search, Paid Search, Paid Social, Organic Social, Email Marketing) and analysis guidelines. Add additional channels as relevant.
 
 ---
 

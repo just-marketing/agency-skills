@@ -1,39 +1,43 @@
 # Content Pillar Definition Template
 
-Use this template to define each of 3-5 core content pillars for a client's content program. Each pillar should be directly tied to business goals and validated against SEO keyword clusters.
+Use this template to define each of the 3-5 content pillars for a client's editorial calendar.
 
-## Pillar Template
+## Pillar: [Pillar Name]
 
-### Pillar [N]: [Pillar Name]
 **Business goal alignment:** [Which objective this serves]
 **Keyword cluster:** [Primary keywords in this theme]
 **Content ratio:** [% of total content dedicated to this pillar]
 **Description:** [2-3 sentences on what this pillar covers and why it matters to the audience]
 
-## Example
+---
+
+## Example Pillars (B2B SaaS)
 
 ### Pillar 1: Data Security Best Practices
-**Business goal alignment:** Lead generation for enterprise security product
-**Keyword cluster:** data security, data protection best practices, enterprise data security
+**Business goal alignment:** Lead generation among IT decision-makers
+**Keyword cluster:** data security, data protection, cybersecurity best practices, enterprise security
 **Content ratio:** 30% of total content
-**Description:** Covers the evolving landscape of data security threats and practical frameworks for protecting sensitive information. Targets IT leaders and security professionals who are evaluating solutions and need educational content to build internal business cases.
+**Description:** Covers best practices for protecting sensitive data in cloud environments. Positions the client as a trusted authority on security, directly addressing the #1 concern of target buyers.
 
 ### Pillar 2: Compliance Automation
-**Business goal alignment:** Thought leadership and product awareness
-**Keyword cluster:** compliance automation, automated compliance reporting, regulatory compliance tools
-**Content ratio:** 25% of total content
-**Description:** Addresses the pain of manual compliance processes and positions automation as the solution. Resonates with compliance officers and operations leaders who are drowning in manual audit work.
+**Business goal alignment:** Product awareness and consideration
+**Keyword cluster:** compliance automation, regulatory compliance, SOC 2 automation, GDPR compliance tools
+**Content ratio:** 35% of total content
+**Description:** Educates prospects on how automation reduces the burden of regulatory compliance. Directly maps to the client's core product value proposition and targets high-intent search queries.
 
 ### Pillar 3: IT Team Productivity
-**Business goal alignment:** Brand awareness and top-of-funnel traffic
-**Keyword cluster:** IT productivity, IT team efficiency, IT workflow optimization
-**Content ratio:** 20% of total content
-**Description:** Broader productivity content that attracts IT managers and directors who may not yet be searching for security or compliance solutions but fit the ideal customer profile.
+**Business goal alignment:** Brand awareness and thought leadership
+**Keyword cluster:** IT productivity, DevOps efficiency, IT team management, reduce IT overhead
+**Content ratio:** 35% of total content
+**Description:** Broader thought leadership content addressing the day-to-day challenges of IT teams. Builds top-of-funnel awareness and positions the client as a partner that understands operational realities, not just a vendor.
 
-## Guidelines
+---
 
-- **Maximum 5 pillars** -- more than 5 dilutes focus and confuses the audience
-- Each pillar must sustain multiple content pieces across formats (blog, social, email, video, etc.)
-- Validate pillars against SEO keyword clusters to ensure search demand exists
-- Content ratios across all pillars should sum to approximately 100% (leave room for timely/reactive content)
-- Force-rank pillars by business impact -- if everything is a priority, nothing is
+## Pillar Validation Checklist
+
+- [ ] Each pillar is directly tied to a business goal
+- [ ] Each pillar has validated search demand (keyword clusters with volume)
+- [ ] No more than 5 pillars total (3-5 is the target range)
+- [ ] Pillars are distinct enough to avoid content overlap
+- [ ] Content ratios add up to 100%
+- [ ] Each pillar can sustain multiple content pieces across formats (blog, social, email, video)

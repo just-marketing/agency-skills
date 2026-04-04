@@ -95,15 +95,7 @@ Done well, a QBR makes the client feel that firing you would be a strategic risk
 
 ### KPI Deep Dives
 
-#### [KPI that needs explanation]: [On Track / Watch / Off Track]
-**What happened:** [Factual performance summary with monthly breakdown showing the quarterly arc]
-**Why:** [Root cause analysis with data support]
-**What we are doing:** [Specific actions, timeline, expected impact]
-
-#### [KPI that needs explanation]: [On Track / Watch / Off Track]
-**What happened:** [Factual performance summary]
-**Why:** [Root cause analysis]
-**What we are doing:** [Specific actions, timeline, expected impact]
+See [kpi-deep-dive-template.md](kpi-deep-dive-template.md) for the "What happened / Why / What we are doing" structure per KPI. Repeat for each KPI that needs detailed explanation.
 
 ---
 
@@ -227,25 +219,7 @@ Done well, a QBR makes the client feel that firing you would be a strategic risk
 
 ## Q&A Preparation
 
-### Anticipated Questions & Prepared Responses
-
-**Q: [Question the client is likely to ask about performance]**
-A: [Concise, honest, data-backed response]
-
-**Q: [Question about a specific underperforming area]**
-A: [Root cause and remediation plan with timeline]
-
-**Q: [Question about budget efficiency or ROI]**
-A: [Specific numbers demonstrating value with comparison benchmarks]
-
-**Q: [Question about competitive threats]**
-A: [Assessment of threat level with recommended response]
-
-**Q: [Question about the future direction or contract]**
-A: [Forward-looking response that builds confidence and frames expansion]
-
-**Q: [Tough question the agency hopes they don't ask]**
-A: [Honest answer prepared in advance -- never get caught unprepared on the hard questions]
+See [qbr-qa-preparation.md](qbr-qa-preparation.md) for the Q&A preparation template with anticipated question categories and preparation guidelines.
 
 ---
 

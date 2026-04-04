@@ -1,12 +1,12 @@
-# Per-Channel Assessment Scorecard
+# Channel Scorecard Template
 
-Use this scorecard structure for each channel evaluated in the audit. Repeat for every active and potential channel.
+Use this scorecard structure to assess each marketing channel in the audit. Repeat for every channel evaluated: Organic Search, Paid Search, Paid Social, Organic Social, Email Marketing, Content Marketing, Referral & Partnerships, and Direct/Brand.
 
-## Scorecard Template
+---
 
-```markdown
-### [Channel Number]. [Channel Name]
-- **Status:** [Active/Inactive/Underutilized]
+## [Channel Name]
+
+- **Status:** [Active / Inactive / Underutilized]
 - **Current Performance:**
   - Monthly sessions: [X] ([trend] vs prior period)
   - Conversion rate: [X%]
@@ -20,42 +20,30 @@ Use this scorecard structure for each channel evaluated in the audit. Repeat for
   1. [Action with expected impact]
   2. [Action with expected impact]
   3. [Action with expected impact]
-```
+
+---
 
 ## Channels to Evaluate
 
-Apply this scorecard to each of the following channels:
+1. **Organic Search** -- Website traffic from non-paid search engine results
+2. **Paid Search** -- Google Ads, Bing Ads, and other paid search platforms
+3. **Paid Social** -- Paid advertising on Meta, LinkedIn, TikTok, X, etc.
+4. **Organic Social** -- Non-paid social media content and community management
+5. **Email Marketing** -- Newsletter, nurture sequences, promotional emails
+6. **Content Marketing** -- Blog, resources, guides, video, podcasts
+7. **Referral & Partnerships** -- Affiliate programs, co-marketing, integrations
+8. **Direct / Brand** -- Direct traffic, branded search, offline-to-online
 
-1. **Organic Search**
-2. **Paid Search**
-3. **Paid Social**
-4. **Organic Social**
-5. **Email Marketing**
-6. **Content Marketing**
-7. **Referral & Partnerships**
-8. **Direct / Brand**
+## Opportunity Scoring Guide (1-10)
 
-## Scoring Guidelines
+When scoring each channel, evaluate:
 
-### Opportunity Score (1-10)
+| Factor | Low (1-3) | Medium (4-6) | High (7-10) |
+|--------|-----------|--------------|-------------|
+| **Performance headroom** | Already near benchmark | Moderate gap to benchmark | Large gap to benchmark |
+| **Audience presence** | Target audience not active here | Some audience presence | Strong audience presence |
+| **Competitive intensity** | Highly saturated | Moderately competitive | Low competition or differentiable |
+| **Client capabilities** | No assets or skills | Some foundation exists | Strong existing assets |
+| **Goal alignment** | Weak connection to objectives | Moderate connection | Directly supports primary goals |
 
-Rate each channel considering:
-- **Current performance headroom:** Gap between current metrics and industry benchmarks
-- **Audience presence:** Is the target audience reachable on this channel?
-- **Competitive intensity:** How crowded is the channel in this vertical?
-- **Existing assets and capabilities:** Can the client's team execute on this channel?
-- **Business objective alignment:** Weight scoring toward the client's stated goals
-
-### Status Definitions
-
-- **Active:** Currently in use with regular investment of budget and/or resources
-- **Inactive:** Not currently in use; either never tried or previously abandoned
-- **Underutilized:** In use but receiving insufficient investment relative to opportunity
-
-### Effort/Impact Classification
-
-Assign each channel to one of the four quadrants from the [effort-impact-matrix.md](effort-impact-matrix.md):
-- **Quick Win:** Low effort, high impact
-- **Strategic Bet:** High effort, high impact
-- **Fill-In:** Low effort, low impact
-- **Deprioritize:** High effort, low impact
+Weight scoring toward the client's stated business objectives.

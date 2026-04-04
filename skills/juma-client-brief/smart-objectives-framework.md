@@ -1,6 +1,8 @@
 # SMART Objectives Framework
 
-Take the client's stated goals and convert each into SMART format using the following framework.
+Use this framework to convert vague client goals into structured, measurable objectives. Every brief must contain at least one SMART objective before it is considered ready.
+
+---
 
 ## SMART Criteria
 
@@ -10,20 +12,17 @@ Take the client's stated goals and convert each into SMART format using the foll
 - **Relevant**: Does this objective connect to the business goals defined in juma-client-context? Show the connection explicitly.
 - **Time-bound**: By what date must this be achieved? Include interim milestones.
 
-## Validation Rule
+---
+
+## Conversion Process
+
+Take the client's stated goals and convert each into SMART format using the criteria above.
 
 If the client's request does not translate into at least one SMART objective, the brief is not ready. Go back to clarifying questions.
 
-## SMART Objective Template
+---
 
-**Goal:** [SMART objective statement]
-- **Specific:** [What exactly will be achieved]
-- **Measurable:** [The metric and target number]
-- **Achievable:** [Why this is realistic given current baseline and resources]
-- **Relevant:** [How this connects to business goals from juma-client-context]
-- **Time-bound:** [Deadline with interim milestones]
-
-## Measurable Success Criteria (per SMART Objective)
+## Defining Success Criteria per Objective
 
 For each SMART objective, define:
 

@@ -75,50 +75,7 @@ This skill produces a SOW that is specific enough to be legally defensible, clea
 
 ## 2. Scope of Work
 
-### Deliverable 1: [Deliverable Name]
-
-**Description:** [Detailed description of what will be produced]
-**Format:** [File type, platform, dimensions, specifications]
-**Acceptance Criteria:**
-- [ ] [Objective, testable criterion]
-- [ ] [Objective, testable criterion]
-- [ ] [Objective, testable criterion]
-
-**Estimated Hours:** [X hours]
-**Delivery Date:** [Date]
-**Dependencies:** [What must happen before this can begin]
-
----
-
-### Deliverable 2: [Deliverable Name]
-
-**Description:** [Detailed description of what will be produced]
-**Format:** [File type, platform, dimensions, specifications]
-**Acceptance Criteria:**
-- [ ] [Objective, testable criterion]
-- [ ] [Objective, testable criterion]
-- [ ] [Objective, testable criterion]
-
-**Estimated Hours:** [X hours]
-**Delivery Date:** [Date]
-**Dependencies:** [What must happen before this can begin]
-
----
-
-### Deliverable 3: [Deliverable Name]
-
-**Description:** [Detailed description of what will be produced]
-**Format:** [File type, platform, dimensions, specifications]
-**Acceptance Criteria:**
-- [ ] [Objective, testable criterion]
-- [ ] [Objective, testable criterion]
-- [ ] [Objective, testable criterion]
-
-**Estimated Hours:** [X hours]
-**Delivery Date:** [Date]
-**Dependencies:** [What must happen before this can begin]
-
-[Add additional deliverables as needed. Every deliverable in the proposal must appear here.]
+See [deliverable-spec-template.md](deliverable-spec-template.md) for the per-deliverable specification template with acceptance criteria guidelines. Repeat for each deliverable -- every deliverable in the proposal must appear here.
 
 ---
 
@@ -191,17 +148,7 @@ Failure to provide required inputs by the specified dates may result in timeline
 
 ## 6. Revision Policy
 
-| Deliverable Type | Revision Rounds Included | Turnaround per Round | Additional Rounds |
-|---|---|---|---|
-| Strategy / Planning Documents | [X] rounds | [X] business days | $[X] per round |
-| Creative / Design Assets | [X] rounds | [X] business days | $[X] per round |
-| Written Content | [X] rounds | [X] business days | $[X] per round |
-| Technical / Development | [X] rounds | [X] business days | $[X] per round |
-
-**Revision Definitions:**
-- A "revision round" consists of consolidated feedback from a single point of contact. Multiple conflicting feedback sources submitted separately count as multiple rounds.
-- Revisions address changes within the original scope and brief. Requests that alter the fundamental direction, strategy, or scope of a deliverable constitute a new deliverable and will be handled through the change order process.
-- Feedback not received within [X] business days of deliverable submission constitutes approval.
+See [revision-policy-template.md](revision-policy-template.md) for the complete revision policy structure by deliverable type, including revision definitions.
 
 ---
 
@@ -225,23 +172,7 @@ The following items are explicitly excluded from this engagement. If any of thes
 
 ## 8. Change Order Process
 
-Any work outside the defined scope requires a written change order before execution begins.
-
-**Process:**
-1. Either party identifies work outside the current scope
-2. Agency prepares a Change Order document that includes: description of the additional work, impact on timeline, impact on budget, and revised deliverables
-3. Client Approver reviews and signs the Change Order within [X] business days
-4. Agency begins work on the change order only after written approval is received
-5. Change orders are billed at $[X]/hour or as a fixed fee per the Change Order document
-
-**Change Order Template Fields:**
-- Change Order Number: [CO-XXX]
-- Description of Additional Work
-- Reason for Change
-- Impact on Timeline: [X days added / no impact]
-- Impact on Budget: [$X additional]
-- Requested by: [Name]
-- Approved by: [Name, Date]
+See [change-order-template.md](change-order-template.md) for the complete change order process and document template.
 
 ---
 

@@ -1,10 +1,11 @@
 # Competitive Matrix Template
 
-The competitive matrix provides a side-by-side comparison of the client against all analyzed competitors across key marketing dimensions.
+Use this matrix to compare the client and all analyzed competitors side-by-side across key dimensions. This table provides a single-view comparison that makes relative strengths and gaps immediately visible.
 
-## Matrix Structure
+---
 
-```markdown
+## Competitive Matrix
+
 | Dimension | [Client] | [Comp 1] | [Comp 2] | [Comp 3] | [Comp 4] | [Comp 5] |
 |-----------|----------|----------|----------|----------|----------|----------|
 | **Positioning** | [Summary] | [Summary] | [Summary] | [Summary] | [Summary] | [Summary] |
@@ -18,49 +19,19 @@ The competitive matrix provides a side-by-side comparison of the client against 
 | **Est. Ad Spend** | [Range] | [Range] | [Range] | [Range] | [Range] | [Range] |
 | **Email Marketing** | [Level] | [Level] | [Level] | [Level] | [Level] | [Level] |
 | **Video/YouTube** | [Level] | [Level] | [Level] | [Level] | [Level] | [Level] |
-```
 
-## How to Use
+## How to Use This Matrix
 
-1. **Populate the client column first** using data from juma-client-context and available analytics
-2. **Fill competitor columns** using data gathered during Steps 2-6 of the competitor intel process
-3. **Use consistent scales** across all competitors:
-   - Activity levels: Heavy / Active / Minimal / None
-   - Spend ranges: Use the same bracket sizes (e.g., <$5K, $5K-$25K, $25K-$100K, $100K+)
-   - Traffic estimates: Use the same tool for all competitors to ensure comparability
-4. **Highlight standout differences** -- where the client is significantly ahead or behind competitors
-5. **Connect to recommendations** -- every significant gap should map to an actionable recommendation in the report
+1. **Identify relative strengths:** Where does the client score higher than most competitors? These are defensible advantages to leverage.
+2. **Identify gaps:** Where does the client fall behind? These are potential investment areas.
+3. **Spot opportunities:** Where are ALL competitors weak? These are whitespace opportunities the client can own.
+4. **Prioritize:** Cross-reference gaps with the client's goals and budget to determine which competitive gaps matter most.
 
-## Supporting Analysis Tables
+## Activity Level Definitions
 
-### Content Gap Analysis
-
-```markdown
-| Keyword | Search Volume | Difficulty | Competitor Ranking | Client Status |
-|---------|--------------|------------|-------------------|---------------|
-| [Keyword 1] | [Volume] | [Score] | [Comp X: Position Y] | Not ranking |
-```
-
-### Content Topic Gaps
-
-```markdown
-| Topic/Theme | Competitors Covering It | Content Formats Used | Opportunity Level |
-|-------------|------------------------|---------------------|-------------------|
-| [Topic 1] | [Comp A, Comp B] | [Blog, video, guide] | [High/Medium/Low] |
-```
-
-### Content Format Gaps
-
-```markdown
-| Format | Competitors Using It | Performance Signals | Recommendation |
-|--------|---------------------|-------------------|----------------|
-| [Format 1] | [Comp A, Comp B] | [View counts, engagement] | [Adopt/Test/Monitor] |
-```
-
-### Messaging Opportunities
-
-```markdown
-| Opportunity | Why It Is Open | How [Client] Can Own It | Priority |
-|-------------|---------------|------------------------|----------|
-| [Angle 1] | [No competitor emphasizes this] | [Specific messaging approach] | [High/Medium/Low] |
-```
+| Level | Definition |
+|-------|-----------|
+| **Heavy Investment** | Significant budget, frequent activity, sophisticated execution |
+| **Active** | Regular activity, moderate investment, competent execution |
+| **Minimal** | Sporadic activity, low investment, basic execution |
+| **Not Present** | No visible activity on this channel |

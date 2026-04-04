@@ -57,17 +57,7 @@ Generate a comprehensive, persuasion-engineered agency proposal designed to win 
 
 ## Situation Analysis
 
-### Current State
-[Describe where the client is today based on research. Be specific - reference their actual channels, campaigns, market position. Show you understand their business.]
-
-### Challenges
-[Identify 3-5 specific challenges with evidence. Frame each as a solvable problem, not a criticism.]
-
-### Opportunities
-[Map each challenge to a quantified opportunity. Use industry benchmarks, competitor data, or market trends to size the opportunity.]
-
-### Cost of Inaction
-[What happens if they do nothing? Quantify lost revenue, market share erosion, or competitive disadvantage over 6-12 months.]
+See [situation-analysis-framework.md](situation-analysis-framework.md) for the complete Current State / Challenges / Opportunities / Cost of Inaction framework.
 
 ---
 
@@ -116,39 +106,7 @@ Generate a comprehensive, persuasion-engineered agency proposal designed to win 
 
 ## Investment
 
-### Best: [Tier Name - Aspirational] - $[Amount]/month
-[Full scope description. This is the recommended option. Frame as the path to maximum impact.]
-
-**Includes:**
-- [Everything in Better, plus...]
-- [Premium deliverable]
-- [Premium deliverable]
-
-**Projected ROI:** [Specific projection with assumptions stated]
-
----
-
-### Better: [Tier Name - Strong] - $[Amount]/month
-[Reduced scope but still comprehensive. Frame as the strong foundation.]
-
-**Includes:**
-- [Everything in Good, plus...]
-- [Additional deliverable]
-- [Additional deliverable]
-
-**Projected ROI:** [Specific projection with assumptions stated]
-
----
-
-### Good: [Tier Name - Starter] - $[Amount]/month
-[Minimum viable engagement. Frame as the entry point with room to grow.]
-
-**Includes:**
-- [Core deliverable]
-- [Core deliverable]
-- [Core deliverable]
-
-**Projected ROI:** [Specific projection with assumptions stated]
+See [pricing-tier-template.md](pricing-tier-template.md) for the complete three-tier (Good/Better/Best) pricing structure template with ROI projections.
 
 ---
 

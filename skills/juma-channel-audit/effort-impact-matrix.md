@@ -1,6 +1,6 @@
 # Effort/Impact Matrix
 
-Use this matrix to categorize each marketing channel based on estimated implementation effort and potential business impact.
+Use this matrix to categorize each marketing channel based on the estimated effort to activate/optimize and the potential impact on business outcomes.
 
 ## Matrix Visualization
 
@@ -21,41 +21,37 @@ Use this matrix to categorize each marketing channel based on estimated implemen
 ## Quadrant Definitions
 
 ### Quick Wins (Low Effort, High Impact)
-**Action: Do these first.**
-- Low budget required, existing team skills sufficient, fast to launch, minimal ongoing maintenance
-- High traffic potential, strong conversion potential, meaningful revenue potential, brand value
-- These channels should be prioritized immediately in the first 30 days
+- **Action:** Do these first
+- **Characteristics:** Channels where the client has existing assets, audience presence is strong, and optimization requires minimal new investment
+- **Examples:** Improving an underperforming active channel, leveraging existing content on a new platform, quick technical fixes to paid campaigns
 
 ### Strategic Bets (High Effort, High Impact)
-**Action: Plan and invest.**
-- Significant budget required, may need new team skills or hires, longer time to launch, ongoing investment needed
-- High traffic potential, strong conversion potential, meaningful revenue potential, brand value
-- These channels require deliberate planning and phased investment over 60-90 days
+- **Action:** Plan and invest deliberately
+- **Characteristics:** Channels that require significant budget, new skills, or extended timelines but offer substantial growth potential
+- **Examples:** Launching a new paid channel from scratch, building an SEO program, developing a content marketing engine
 
 ### Fill-Ins (Low Effort, Low Impact)
-**Action: Do if resources allow.**
-- Low budget required, existing team skills sufficient, fast to launch, minimal ongoing maintenance
-- Limited traffic potential, modest conversion potential, incremental revenue, supporting brand value
-- These channels are worth pursuing only when primary and secondary channels are running well
+- **Action:** Do if resources allow
+- **Characteristics:** Low-maintenance channels that provide incremental value but will not move the needle alone
+- **Examples:** Maintaining a social media presence on a secondary platform, directory listings, referral program maintenance
 
 ### Deprioritize (High Effort, Low Impact)
-**Action: Avoid or defer.**
-- Significant budget required, may need new team skills, longer time to launch, ongoing investment needed
-- Limited traffic potential, modest conversion potential, incremental revenue at best
-- These channels should be avoided unless market conditions change significantly
+- **Action:** Avoid or defer
+- **Characteristics:** Channels that would consume significant resources without a proportional return -- often due to high competition, poor audience fit, or low intent
+- **Examples:** Channels where the target audience is minimally present, oversaturated paid channels with high CPAs, platforms requiring specialized content the team cannot produce
 
-## How to Score
+## Effort Estimation Factors
 
-For each channel, estimate:
+When estimating effort for each channel, consider:
+- **Budget required:** Monthly media spend or tool costs
+- **Team skills needed:** Can the current team execute, or does it require hiring/training?
+- **Time to launch:** How long before the channel is operational and producing results?
+- **Ongoing maintenance:** Weekly/monthly hours required for management and optimization
 
-**Implementation Effort:**
-- Budget required (monthly spend + setup costs)
-- Team skills needed (existing capability vs. new hires/training)
-- Time to launch (days to weeks vs. months)
-- Ongoing maintenance (hours per week)
+## Impact Estimation Factors
 
-**Potential Impact:**
-- Traffic potential (estimated monthly sessions)
-- Conversion potential (expected conversion rate for this channel)
-- Revenue potential (estimated monthly revenue contribution)
-- Brand value (awareness, authority, and trust contribution)
+When estimating impact for each channel, consider:
+- **Traffic potential:** Estimated monthly visitors or impressions
+- **Conversion potential:** Expected conversion rate based on channel intent level
+- **Revenue potential:** Estimated revenue contribution based on traffic x conversion x AOV
+- **Brand value:** Qualitative brand awareness and authority-building contribution
