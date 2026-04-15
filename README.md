@@ -1,5 +1,7 @@
 # Juma Agency Skills
 
+![Juma Agency Skills](./.github/og-image.png)
+
 Claude Code skills built by [Juma.ai](https://juma.ai) for marketing agencies managing multiple clients. These skills complement Juma's collaborative AI workspace by providing repeatable, deliverable-oriented workflows that agencies can run across all their clients.
 
 [![skills.sh](https://img.shields.io/badge/skills.sh-just--marketing%2Fagency--skills-black)](https://skills.sh/just-marketing/agency-skills)
