@@ -40,42 +40,42 @@ cp -r agency-skills/skills/juma-seo-audit .claude/skills/
 ### Foundation
 | Skill | Description |
 |-------|-------------|
-| <nobr>`juma-client-context`</nobr> | Structured client profile: brand, audiences, competitors, goals, voice, budget. Referenced by all other skills. |
-| <nobr>`juma-client-brief`</nobr> | Translates vague client requests into structured briefs with objectives, metrics, and constraints. |
+| `juma‑client‑context` | Structured client profile: brand, audiences, competitors, goals, voice, budget. Referenced by all other skills. |
+| `juma‑client‑brief` | Translates vague client requests into structured briefs with objectives, metrics, and constraints. |
 
 ### Revenue-Generating Deliverables
 | Skill | Description |
 |-------|-------------|
-| <nobr>`juma-proposal`</nobr> | Agency proposal with situation analysis, strategy, tiered pricing, and case study references. |
-| <nobr>`juma-sow`</nobr> | Statement of work with deliverable breakdown, acceptance criteria, and change order process. |
-| <nobr>`juma-reporting`</nobr> | Monthly/weekly performance reports with "so what?" storytelling and recommendations. |
-| <nobr>`juma-client-qbr`</nobr> | Quarterly business review: performance vs goals, strategic recs, renewal framing. |
+| `juma‑proposal` | Agency proposal with situation analysis, strategy, tiered pricing, and case study references. |
+| `juma‑sow` | Statement of work with deliverable breakdown, acceptance criteria, and change order process. |
+| `juma‑reporting` | Monthly/weekly performance reports with "so what?" storytelling and recommendations. |
+| `juma‑client‑qbr` | Quarterly business review: performance vs goals, strategic recs, renewal framing. |
 
 ### Audit & Strategy
 | Skill | Description |
 |-------|-------------|
-| <nobr>`juma-channel-audit`</nobr> | Channel-by-channel assessment with opportunity scoring and effort/impact matrix. |
-| <nobr>`juma-competitor-intel`</nobr> | 3-5 competitor analysis across messaging, channels, content, SEO, ads, and social. |
-| <nobr>`juma-seo-audit`</nobr> | Technical + strategic SEO audit with weighted scoring in client-deliverable format. |
-| <nobr>`juma-geo-audit`</nobr> | AI search visibility assessment: brand mentions in LLMs, citability scoring, GEO comparison. |
-| <nobr>`juma-cro-audit`</nobr> | Conversion audit: friction points, trust signals, CTA effectiveness, prioritized test roadmap. |
-| <nobr>`juma-campaign-plan`</nobr> | Multi-channel campaign plan with creative briefs, budget allocation, and measurement plan. |
+| `juma‑channel‑audit` | Channel-by-channel assessment with opportunity scoring and effort/impact matrix. |
+| `juma‑competitor‑intel` | 3-5 competitor analysis across messaging, channels, content, SEO, ads, and social. |
+| `juma‑seo‑audit` | Technical + strategic SEO audit with weighted scoring in client-deliverable format. |
+| `juma‑geo‑audit` | AI search visibility assessment: brand mentions in LLMs, citability scoring, GEO comparison. |
+| `juma‑cro‑audit` | Conversion audit: friction points, trust signals, CTA effectiveness, prioritized test roadmap. |
+| `juma‑campaign‑plan` | Multi-channel campaign plan with creative briefs, budget allocation, and measurement plan. |
 
 ### Execution
 | Skill | Description |
 |-------|-------------|
-| <nobr>`juma-content-calendar`</nobr> | Monthly/quarterly editorial plan with pillar topics and repurposing workflows. |
-| <nobr>`juma-paid-media-plan`</nobr> | Platform selection, audience targeting, budget allocation, and bidding strategy. |
-| <nobr>`juma-ab-test-plan`</nobr> | Hypothesis formulation, sample size calculations, test design, and results template. |
-| <nobr>`juma-analytics-setup`</nobr> | GA4 setup, conversion events, UTM standards, attribution, and dashboard configuration. |
+| `juma‑content‑calendar` | Monthly/quarterly editorial plan with pillar topics and repurposing workflows. |
+| `juma‑paid‑media‑plan` | Platform selection, audience targeting, budget allocation, and bidding strategy. |
+| `juma‑ab‑test‑plan` | Hypothesis formulation, sample size calculations, test design, and results template. |
+| `juma‑analytics‑setup` | GA4 setup, conversion events, UTM standards, attribution, and dashboard configuration. |
 
 ### Business Operations
 | Skill | Description |
 |-------|-------------|
-| <nobr>`juma-case-study`</nobr> | Challenge/strategy/results framework in multiple formats (long-form, one-pager, social). |
-| <nobr>`juma-upsell-finder`</nobr> | Identifies expansion opportunities from performance data and service gaps. |
-| <nobr>`juma-retainer-review`</nobr> | Internal profitability analysis: hours vs contracted, scope creep, renewal recs. |
-| <nobr>`juma-onboarding-checklist`</nobr> | Access provisioning, kickoff agenda, audit schedule, first-30-days milestones. |
+| `juma‑case‑study` | Challenge/strategy/results framework in multiple formats (long-form, one-pager, social). |
+| `juma‑upsell‑finder` | Identifies expansion opportunities from performance data and service gaps. |
+| `juma‑retainer‑review` | Internal profitability analysis: hours vs contracted, scope creep, renewal recs. |
+| `juma‑onboarding‑checklist` | Access provisioning, kickoff agenda, audit schedule, first-30-days milestones. |
 
 ## Workflow Examples
 
