@@ -1,0 +1,59 @@
+{
+  "name": "agency-skills",
+  "owner": {
+    "name": "Just Marketing / Juma.ai",
+    "url": "https://github.com/just-marketing"
+  },
+  "metadata": {
+    "description": "Marketing-agency skill pack: 20 client-facing workflows for audits, proposals, reporting, campaigns, and business operations.",
+    "version": "0.1.0",
+    "repository": "https://github.com/just-marketing/agency-skills"
+  },
+  "plugins": [
+    {
+      "name": "juma-agency-skills",
+      "source": "./",
+      "description": "20 marketing-agency skills centred on juma-client-context. Covers onboarding, SEO/GEO/CRO audits, proposals, SOWs, QBRs, campaign planning, content calendars, paid media, A/B testing, analytics setup, reporting, retainers, case studies, and upsell discovery.",
+      "version": "0.1.0",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "agency",
+        "seo",
+        "geo",
+        "cro",
+        "aeo",
+        "llm-seo",
+        "content-marketing",
+        "campaign-planning",
+        "reporting",
+        "proposals",
+        "client-management",
+        "audit",
+        "strategy"
+      ],
+      "skills": [
+        "./skills/juma-ab-test-plan",
+        "./skills/juma-analytics-setup",
+        "./skills/juma-campaign-plan",
+        "./skills/juma-case-study",
+        "./skills/juma-channel-audit",
+        "./skills/juma-client-brief",
+        "./skills/juma-client-context",
+        "./skills/juma-client-qbr",
+        "./skills/juma-competitor-intel",
+        "./skills/juma-content-calendar",
+        "./skills/juma-cro-audit",
+        "./skills/juma-geo-audit",
+        "./skills/juma-onboarding-checklist",
+        "./skills/juma-paid-media-plan",
+        "./skills/juma-proposal",
+        "./skills/juma-reporting",
+        "./skills/juma-retainer-review",
+        "./skills/juma-seo-audit",
+        "./skills/juma-sow",
+        "./skills/juma-upsell-finder"
+      ]
+    }
+  ]
+}

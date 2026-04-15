@@ -1,8 +1,16 @@
 {
+  "id": "juma-agency-skills",
   "name": "juma-agency-skills",
   "version": "0.1.0",
-  "description": "Juma.ai marketing agency skills - client management, audits, campaigns, reporting, and business operations for agencies managing multiple clients",
-  "author": { "name": "Juma.ai" },
+  "description": "20 marketing-agency skills for client management, audits, campaigns, reporting, and business operations — built by Juma.ai for agencies managing multiple clients. Covers onboarding, SEO/GEO/CRO audits, proposals, SOWs, QBRs, campaign planning, content calendars, paid media, A/B testing, analytics setup, reporting, retainers, case studies, and upsell discovery.",
+  "author": {
+    "name": "Juma.ai",
+    "email": "ilko@team-gpt.com",
+    "url": "https://github.com/just-marketing"
+  },
+  "homepage": "https://github.com/just-marketing/agency-skills",
+  "repository": "https://github.com/just-marketing/agency-skills",
+  "license": "Apache-2.0",
   "keywords": [
     "marketing",
     "agency",
@@ -12,7 +20,35 @@
     "content",
     "campaigns",
     "reporting",
-    "proposals"
+    "proposals",
+    "audit",
+    "strategy",
+    "ai-search",
+    "aeo",
+    "llm-seo",
+    "client-management"
   ],
-  "skills_dir": "skills"
+  "skills_dir": "skills",
+  "skills": [
+    "./skills/juma-ab-test-plan",
+    "./skills/juma-analytics-setup",
+    "./skills/juma-campaign-plan",
+    "./skills/juma-case-study",
+    "./skills/juma-channel-audit",
+    "./skills/juma-client-brief",
+    "./skills/juma-client-context",
+    "./skills/juma-client-qbr",
+    "./skills/juma-competitor-intel",
+    "./skills/juma-content-calendar",
+    "./skills/juma-cro-audit",
+    "./skills/juma-geo-audit",
+    "./skills/juma-onboarding-checklist",
+    "./skills/juma-paid-media-plan",
+    "./skills/juma-proposal",
+    "./skills/juma-reporting",
+    "./skills/juma-retainer-review",
+    "./skills/juma-seo-audit",
+    "./skills/juma-sow",
+    "./skills/juma-upsell-finder"
+  ]
 }

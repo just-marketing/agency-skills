@@ -2,12 +2,37 @@
 
 Claude Code skills built by [Juma.ai](https://juma.ai) for marketing agencies managing multiple clients. These skills complement Juma's collaborative AI workspace by providing repeatable, deliverable-oriented workflows that agencies can run across all their clients.
 
+[![skills.sh](https://img.shields.io/badge/skills.sh-just--marketing%2Fagency--skills-black)](https://skills.sh/just-marketing/agency-skills)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](./LICENSE)
+
 ## Installation
 
-Add this plugin to your Claude Code configuration:
+### Via the Skills CLI (recommended)
+
+Install the whole pack:
 
 ```bash
-claude plugin add juma-agency-skills
+npx skills add just-marketing/agency-skills
+```
+
+Install a single skill:
+
+```bash
+npx skills add just-marketing/agency-skills -s juma-seo-audit
+```
+
+### Via the Claude Code marketplace
+
+```bash
+/plugin marketplace add just-marketing/agency-skills
+/plugin install juma-agency-skills
+```
+
+### Manual
+
+```bash
+git clone https://github.com/just-marketing/agency-skills.git
+cp -r agency-skills/skills/juma-seo-audit .claude/skills/
 ```
 
 ## Skills Catalog
